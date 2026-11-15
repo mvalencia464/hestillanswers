@@ -46,7 +46,7 @@ def parse(path):
         p['first_comment'] = SOURCES.get(code, '').format(t=t)
         if code == 'OR' and title: p['first_comment'] = ('An original prayer. ' if p['type'] == 'prayer' else '') + title + '.'
         if code == 'HX': p['first_comment'] = 'Source: ' + title
-        if p['id'] in CREDITS and any(os.path.exists(os.path.join(ROOT, 'backgrounds', p['id'] + e)) for e in ('.jpg', '.jpeg', '.png', '.webp')):
+        if p['id'] in CREDITS and CREDITS[p['id']].get('credit') and any(os.path.exists(os.path.join(ROOT, 'backgrounds', p['id'] + e)) for e in ('.jpg', '.jpeg', '.png', '.webp')):
             c = CREDITS[p['id']]; note = c['credit']
             if 'metmuseum.org' in (c.get('url') or ''): note += '. The Metropolitan Museum of Art, Open Access (public domain).'
             elif not note.endswith('.'): note += '.'

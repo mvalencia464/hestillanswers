@@ -1,0 +1,148 @@
+### **1. Monetization Program Architecture & Eligibility**
+* **Unified Content Monetization Program**: Replaces separate In-Stream Ads, Ads on Reels, and Performance Bonuses into a single, consolidated dashboard paying across all formats.
+* **New Waitlist / Application Criteria**: Emerging standards require **10,000 followers**, **150,000 unique views** over 28 days, at least **3 public reels** in the last 90 days, a page age of **≥ 30 days**, creator age **18+**, and residency in an eligible country.
+* **Invitation Benchmarks**: During testing phases, invitations frequently trigger for pages maintaining **5,000–25,000 targeted followers**, consistent daily posting, and clean compliance records.
+* **Baseline Tool Requirements (Legacy/Standard)**: Legacy in-stream tools required 5,000 followers and 60,000 minutes of watch time, while Stars requires 1,000 followers.
+
+---
+
+### **2. Payout Metrics: Qualified Views & Dwell Time**
+* **Qualified Views vs. Total Views**: Payouts are calculated strictly on **qualified views**, not raw play counts. 
+* **Excluded Traffic**: Repeat loops from the same viewer, rapid scroll-aways, bot/purchased traffic, and views violating partner policies are completely excluded from payouts.
+* **Dwell Time & Retention**: Revenue is driven by session duration, prolonged comment reading, comment replies, and watch time rather than passive likes.
+* **Tier-1 Audience Weighting**: Payouts (RPM) are heavily tied to traffic from Tier-1 countries (US, UK, Canada, Australia) where advertising spend is highest; broad non-Tier-1 viral reach significantly lowers overall RPM.
+
+---
+
+### **3. Format Standards & Technical Duration Rules**
+* **All-Format Monetization**: Creators earn across videos, reels, photos, text posts, and stories within the new program. Text and photo carousels often generate higher RPM relative to production effort than video.
+* **Minimum Duration Thresholds**:
+  * **Reels**: Must be at least **10 seconds** to qualify for earnings.
+  * **Stories**: Must be at least **5 seconds**. Direct uploads are required; sharing a post to stories is non-monetizable.
+  * **Videos**: Must be longer than **10 seconds**, with a sweet spot of **1 to 5 minutes** for multi-ad mid-roll placement and maximum watch time.
+  * **Earnings Multiplier Bonuses**: Require longer reels (e.g., **≥ 90 seconds**) to qualify for specialized bonus payouts.
+
+---
+
+### **4. Originality & Repurposing Standards**
+* **Meaningful Enhancement**: Simply clipping, re-uploading, or lightly editing third-party footage triggers **Limited Originality of Content (LOC)**. Re-edited videos must contain transformative voiceovers, fresh perspectives, or unique commentary.
+* **Cross-Platform Repurposing**: Native files from YouTube or TikTok must be completely reformatted (aspect ratio, visual hooks, native pacing, on-screen text) rather than uploaded as identical raw files.
+* **Watermark Prohibition**: Visible third-party watermarks (e.g., TikTok logos) disqualify content from monetization and reduce distribution.
+* **Licensed Music Limitations**: Commercial copyrighted music can cause demonetization or split revenue (Meta keeping ~60% and the creator receiving ~20%), making original sound or cleared royalty-free music standard practice.
+
+---
+
+### **5. AI & Spam Policy Enforcements**
+* **Spam & 100% Automated AI**: Fully automated, low-effort AI content (synthetic stock footage + generic AI voiceover) faces aggressive reach suppression and demonetization. AI is permitted strictly as an ideation tool or when paired with unique human branding and authentic likeness.
+* **Fake Image-Video Loops**: Static images disguised as video loops to exploit retention metrics are penalized.
+* **Caption & Hashtag Hygiene**: Long, unrelated narrative captions and excessive hashtag stuffing are classified as spam. Limit hashtags to **0–2 relevant tags**.
+* **Outbound Link Suppression**: External links inside post captions severely diminish organic reach; links should be placed in comments.
+* **Spam Distribution Networks**: Artificially pushing posts through large networks of unrelated pages or groups results in immediate reach degradation and policy strikes.
+
+---
+
+### **6. Reposting & Content Lifecycle Standards**
+* **Approved Reposting Intervals**: Reposting top-performing internal assets via native tools is permitted, provided assets are spaced at least **30 to 60+ days apart**.
+* **Frequency Scaling**: Pages with established audience momentum can publish **2 to 4+ times daily** across diversified formats without penalization, as long as content remains original and independent.
+
+---
+
+### **7. Violations, Penalties & Remediation**
+* **Presence Not Established**: Standard hold placed on brand-new pages preventing monetization until the page reaches **30 days of age**; lifts automatically.
+* **Educational Strike Removal**: First-time Community Standards violations can be cleared by completing an in-app educational module, removing the account warning.
+* **Automated False Positives**: Over 90% of policy flags are machine-generated.
+* **Violation Recovery Protocol**:
+  1. Identify and delete content posted within the preceding **24–72 hours**.
+  2. If restrictions persist, purge unoriginal/flagged assets entirely (pre-existing monetization status is retained once the strike clears).
+  3. Continue regular posting of 100% original content during the review period.
+  4. Submit appeals via Meta Business Suite policy tabs, support forms, or Meta Verified escalated support.
+
+---
+
+📋 We could take these exact criteria and map them against your current page's audit metrics to see where you're already compliant and what needs tuning.
+
+
+
+### **1. Sizing, Aspect Ratios & Technical Dimensions**
+
+* **Regular Videos (Feed / In-Stream Ads)**: 
+  * **Best Aspect Ratio**: **4:5** (or **1:1 square**, e.g., 1080×1080 or 720×900). 
+  * **Why 4:5 beats 16:9 and 9:16 on Feed**: Standard 16:9 landscape video looks too small on mobile feeds, while raw 9:16 vertical video gets masked or cropped top and bottom on the main Facebook feed unless the viewer taps full-screen. 4:5 takes up the maximum vertical screen estate without being cropped.
+* **Facebook Reels & Stories**:
+  * **Best Aspect Ratio**: **9:16 vertical** (1080×1920).
+  * **Stories Upload Rule**: Always upload **directly** as a native vertical file rather than using the "Share to Story" button from a post; shared posts generate zero monetization, whereas direct uploads qualify for story earnings and replies.
+* **Photo Posts & Carousels**:
+  * **Best Dimensions**: **4:5 vertical** or **1:1 square**.
+  * **Carousel Structuring**: 3 to 5 images per carousel telling a sequential story, with on-image text guiding the viewer from slide to slide to maximize dwell time.
+
+---
+
+### **2. Visual Layout, Text Overlay & Branding Rules**
+
+* **On-Screen Hook Positioning**:
+  * Place the main bold headline/hook at the **very top** or **upper third** of the video or image.
+  * Facebook’s mobile app places post descriptions beneath media, making the **on-screen image/video text the primary hook** that stops the scroll.
+* **Closed Captions in the Center**:
+  * Place captions dead in the **middle of the frame**. Most Facebook users browse with the sound muted; center-placed captions ensure viewers read along without obscuring the top hook or bottom interface.
+* **Reaction / Split-Screen Formatting**:
+  * **Top-and-Bottom Stack**: Original video/clip at the top, reaction cutout or host camera at the bottom, text hook at the top header, and captions running across the middle. 
+  * Use this exact layout for both 4:5 feed videos and 9:16 Reels so you can repurpose the footage without re-editing the layout from scratch.
+* **Image Text Brevity**:
+  * Keep text overlays on single photos and memes to **under 5–7 words**. It must be instantly legible on a mobile screen while glancing (e.g., *"Is this real or fake?"* with an arrow).
+* **Visual Brand Uniformity**:
+  * Stick to the exact same font, headline style, and color palette across all posts and ads so returning viewers immediately recognize your content in their feed.
+
+---
+
+### **3. Duration "Sweet Spots" & Retention Targets**
+
+* **The Monetization Video Sweet Spot**: **1:45 to 2:30 minutes** (extending up to **3–4 minutes**).
+  * 1:45–2:30 delivers the highest watch-time percentage and retention curves before viewer drop-off occurs.
+  * 3–4 minutes allows multiple ad placements (in-stream pre-roll, mid-roll, banners) for maximum RPM.
+* **Reels Length Hierarchy**:
+  * **15–30 Seconds**: Pure reach, viral discovery, and follower acquisition; low payout RPM.
+  * **60 Seconds**: Optimal middle-tier Reel length; delivers strong completion rates and solid RPM.
+  * **90+ Seconds**: Triggers eligibility for specialized programs like the **Earnings Multiplier bonus** (up to \$5,000).
+* **Retention Thresholds**:
+  * Aim for at least **40%–50% average retention** on videos.
+  * If a 3-minute video drops viewers at 15–20 seconds, cut subsequent videos to 30–60 seconds; do not post empty duration that destroys your retention score.
+
+---
+
+### **4. The "One-to-Many" Content Flywheel**
+
+* **Repurposing 1 Asset into 5+ Monetizable Units**:
+  1. **Long-Form Video (4:5)**: 2–4 minute edited cut focusing on the best moments.
+  2. **Short Reel (9:16)**: 30–60 second highlight hook linked to the long-form video.
+  3. **Photo Carousel / Stills**: Screen captures of key turning points with text questions.
+  4. **Direct Story**: Upload top-performing photo or 15-second clip straight to Stories with an interactive poll or question sticker.
+  5. **Text Discussion**: Opinion prompt or debate topic extracted from the video’s core controversy to drive comments.
+* **"Connect Reel to Video" Tool**:
+  * When uploading Reels via Meta Business Suite desktop, use the native **"Connect Reel to Video"** setting to embed a direct link from your short reel to your long-form in-stream video.
+
+---
+
+### **5. The "Viral Formula" Paid Amplification Hack**
+
+* **Low-Budget Ad Ignition (\$5–\$25)**:
+  * Never spend hundreds blindly. Test organic posts first; when an asset shows above-average traction, run **\$5 to \$10/day** for 2–3 days behind it.
+* **Audience Retargeting & RPM Engineering**:
+  * Run follower/engagement ads targeted strictly to **Tier-1 countries** (US, Canada, UK, Australia).
+  * Running ads to your own followers or warm viewers re-engages inactive followers, prompting Facebook's algorithm to trigger secondary organic recommendation waves to non-followers.
+* **Organic-Style Creatives**:
+  * Never use slick corporate commercials. Ad creatives must use the exact same template, hook, and raw aesthetic as your regular organic feed posts.
+
+---
+
+### **6. Systematic Reposting & "Winners Vault"**
+
+* **The 30- to 60-Day Vault Rule**:
+  * Keep a tracking spreadsheet (or software like Repost HQ) logging post date, views, watch time, and earnings.
+  * Wait at least **30 to 60+ days** before reposting proven winners.
+* **Execution Difference by Media Type**:
+  * **Videos**: Use the native Meta Business Suite **"Create post with video"** feature; it creates a new post preserving the original asset without manual re-uploading.
+  * **Reels & Photos**: Because native repost buttons are limited for reels and photos, take down or re-upload the file directly with a refreshed hook/caption.
+
+---
+
+🎯 If you'd like, we can take your primary niche and design an exact 7-day content schedule specifying the daily format mix, dimensions, and posting time blocks.

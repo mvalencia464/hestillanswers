@@ -1,0 +1,386 @@
+# HE STILL ANSWERS - Batch 02 "Format Lab" (30 posts, one a day, written in posting order)
+# Seven test formats:  story+photo (PH) | carousel mini-story (CA) | numbered-list carousel (NL)
+#                      one-liner (OL) | then/now (TN) | verse + witness (VW) | long text, no image (TX)
+# Repeat the H: line for each slide of a carousel/list, or for the two halves of TN and VW cards.
+# Source codes: W, CY, SP, MH, OR as in batch 01, plus HX = a named historical source.
+
+@@ PH01 | story | dusk | city | True story · February 11, 1861
+H: BEFORE HE LEFT HOME|FOR THE LAST TIME,|LINCOLN ASKED HIS|NEIGHBORS *FOR ONE THING.*
+C: Springfield, Illinois. February 11, 1861. Abraham Lincoln stood at the back of a train, about to leave for Washington and a country coming apart.
+
+His neighbors had come to the depot to see him off. He spoke for barely two minutes.
+
+"Here I have lived more than a quarter of a century; here my children were born, and here one of them lies buried. I know not how soon I shall see you again."
+
+Then he told them what he was facing: a duty greater, perhaps, than any man had carried since Washington. And he told them he could not do it alone.
+
+"I hope you, my friends, will all pray that I may receive that Divine assistance, without which I cannot succeed, but with which success is certain."
+
+Not advice. Not votes. Prayer.
+
+The train pulled out. He never saw Springfield again. Four years later it came back carrying his body.
+
+Who is carrying something heavy right now and needs you to do what Lincoln's neighbors were asked to do?
+R: HX | Lincoln's farewell address at Springfield, February 11, 1861, as printed in The Wonders of Prayer (1885). Several slightly different transcripts of the speech survive.
+
+@@ OL01 | oneliner | | |
+H: GOD IS NOT SHORT OF WIND. HE MAY BE WAITING FOR SOMEONE TO *SPREAD THE SAILS.*
+C: A Yorkshire miller once told Sammy Hick there was no wind to grind his corn.
+
+"Spread the cloth," said Sammy. "I'll go and pray."
+
+What sail have you left furled because the air feels dead?
+R: OR | From the story of Samuel Hick in The Wonders of Prayer (1885)
+
+@@ CA01 | carousel | sea-dusk | ship | True story · Boston
+H: A WIDOW ASKED HER|PASTOR TO PRAY THAT|*THE WIND WOULD CHANGE.*|HE REFUSED.
+H: Her only son was a sailor. His ship left port that night. *Unless the wind turned.*
+H: She was sure of it: if the wind changed, John would stay for tonight's meeting. *And if he came, he would be converted.*
+H: Her pastor said that was presumptuous. Her answer: "If you cannot join me, *I must pray alone,* for he must stay."
+H: Walking to church that evening, the pastor glanced up at the weather vane. *It had swung around.*
+H: John was sitting in the front row. When he finally sailed, *he sailed a Christian.* The pastor never forgot it.
+C: Dr. Cleaveland of Boston told this story on himself.
+
+He was willing to pray for the young man's soul. He was not willing to ask God to move the weather for it. That, he told the mother, would be presuming too much.
+
+She did not argue theology with him. She went home and prayed alone.
+
+He admitted afterward that he had learned a lesson that day he never forgot: a praying mother sometimes knows more about what God is willing to do than her minister does.
+
+Swipe through for the whole story.
+R: W | Praying to Stop the Wind and the Sailing of a Vessel
+
+@@ TN01 | thennow | | | 1710
+H: Thus prayer must be sparsim (a sprinkling of it) in every duty, and our eyes must be ever towards the Lord.
+H: Don't save prayer for prayer time. *Salt the whole day with it.*
+B: Matthew Henry
+C: "Sparsim" is Latin for scattered here and there, the way you would salt a dish.
+
+Henry's point is that prayer is not one item on the day's list. It is seasoning for all the others.
+R: MH
+
+@@ NL01 | list | night | | C. H. Spurgeon
+H: 5 :: One-line prayers for when you have *no words*
+H: Come near, our Father, *come very near* to Thy children.
+H: Cast in Thy cross, O Jesus, and *turn the scale!*
+H: Make our nature so clean that *temptation cannot defile it.*
+H: Help us to be always *at one with our God.*
+H: O! let none of us live *without our God and Father.*
+H: >> Which one will you *pray today?*
+B: From the prayers of C. H. Spurgeon
+C: Some days a whole prayer is too much. One line is enough.
+
+All five of these are Spurgeon's own words, prayed aloud from his London pulpit. Swipe through and take the one you need.
+R: SP
+
+@@ VW01 | verse | night | | And it happened
+H: And it shall come to pass, that *before they call, I will answer;* and while they are yet speaking, I will hear.
+H: Spurgeon's college ran out of money on a Sunday night. The gift was already sitting in his unopened mail.
+B: Isaiah 65:24
+C: The promise is three thousand years old. The mail was delivered in Victorian London.
+
+Same God.
+R: W | Spurgeon's Prayer for Money
+
+@@ TX01 | text | | |
+H: -
+C: Charles Spurgeon prayed this out loud, in front of thousands, in Victorian London. Read it slowly.
+
+"<<SPURGEON: We can truly say that we delight in God.>>"
+
+Which line is yours today?
+R: SP
+
+@@ PH02 | story | dusk | city | True story · New York, 1857
+H: HE RENTED A ROOM TO|PRAY AT LUNCH HOUR.|FOR THIRTY MINUTES|*NOBODY CAME.*
+C: September 23, 1857. Jeremiah Lanphier, a businessman turned city missionary, had handed out flyers all over lower Manhattan inviting merchants and clerks to a noon prayer meeting in an upper room on Fulton Street.
+
+At twelve o'clock he was the only one there.
+
+Twelve-ten. Twelve-twenty. He prayed by himself.
+
+At half past, he heard a step on the stairs. Then another. By one o'clock there were six men in the room.
+
+The next week there were twenty. The week after, forty. They decided to meet every day.
+
+That same autumn a financial panic closed banks and threw thousands out of work. The room filled. Then the building. Then other churches and theaters across the city. Within months, by the usual count, some ten thousand people were stopping to pray in New York every day at noon, and the movement was spreading city to city.
+
+It began with one man who kept praying for thirty minutes in an empty room.
+
+If you are in the empty-room part of your story, stay.
+R: HX | Histories of the Fulton Street noon prayer meeting, begun September 23, 1857; its later records fill a section of The Wonders of Prayer (1885).
+
+@@ OL02 | oneliner | | |
+H: FAITH IS SOMETIMES JUST *PUTTING THE KETTLE ON.*
+C: An old London widow with nothing in the cupboard made her daughter boil water for tea anyway. God had provided for thirty years, she said.
+
+The food arrived while the kettle was still hot.
+
+What is your kettle?
+R: OR | From "God's Raven" in The Wonders of Prayer (1885)
+
+@@ CA02 | carousel | dawn | church | Recorded 1885
+H: EVERY DAY HE PRAYED|GOD WOULD SELL HIS FARM.|*GOD NEVER DID.*
+H: The town was new, rough and godless. No church. No Sabbath. He did not want to raise a family there.
+H: So he walked to a grove every day and asked God to send a buyer. *No buyer ever came.*
+H: Then a neighbor fell sick. He went to sit with him. A bystander, listening in, said: *"If what you say is true, I am lost."*
+H: That conversation became a prayer meeting. Then a revival. Then a church, a building and a pastor.
+H: He raised his children in the town he had begged to leave, and saw most of them come to Christ. *God's "no" was the better answer.*
+C: The old writer ends this one with a sentence worth keeping:
+
+"Do not despair. God will either answer your exact prayer, or do something better for you."
+
+What "no" are you still arguing with?
+R: W | A Prayer Not Answered
+
+@@ TN02 | thennow | | | 1710
+H: If we had the tongue of men and angels, and have not the heart of humble serious Christians in prayer, we are but as a sounding brass and a tinkling cymbal.
+H: God isn't grading your vocabulary. *He's listening for your heart.*
+B: Matthew Henry
+C: Henry wrote an entire book of beautiful words to pray. Then he said this in the preface, so nobody would miss the point.
+
+A stammered prayer from a humble heart outweighs an eloquent one from a proud heart.
+R: MH
+
+@@ PH03 | story | snow | tree | True story · Vermont, 1829
+H: A THIEF DROVE OFF|WITH HIS SLEIGH.|HE PRAYED *FOR THE*|*THIEF'S CONSCIENCE.*
+C: Marshfield, Vermont, about 1829. A man calling himself John Cotton had been in town six weeks, selling wooden clocks. He borrowed a neighbor's sleigh and harness for a three-day trip.
+
+He did not come back. It turned out he had bought the clocks on credit, sold them all, and owed for his horse besides.
+
+The owner felt it badly. They had little, and what they had came from hard labor. Chasing him was pointless.
+
+About three weeks later he came in one evening, perfectly calm. "I shall not worry any more about my sleigh and harness. I think I shall get them again."
+
+His wife asked why.
+
+"I have been praying to God to arrest Cotton's conscience, so that he will be obliged to leave them where I can get them."
+
+Six days later a letter came from an innkeeper forty miles off, in Littleton, New Hampshire. A man had ridden in at midnight, refused a bed, and insisted on leaving a sleigh and harness for a Mr. P. of Marshfield. He rode away at two in the morning on one of the coldest nights of the year.
+
+He paid nobody else he owed. Only that.
+R: W | How the Stolen Sleigh Was Returned by a Thief
+
+@@ VW02 | verse | gold | | And it happened
+H: But my God shall *supply all your need* according to his riches in glory by Christ Jesus.
+H: One pint of cornmeal left in a prairie cabin. By morning, potatoes and flour were sitting on the bench outside.
+B: Philippians 4:19
+C: The widow never found out who left them.
+
+"The Lord never seemed so far off after that time," she said.
+R: W | The Lord Did Not Forget the Potatoes
+
+@@ NL02 | list | dawn | | Matthew Henry's method, 1710
+H: 5 :: Steps to pray when you *don't know where to start*
+H: *Adore.* Begin with who God is, before anything you need.
+H: *Confess.* Name what went wrong. Plainly. No excuses.
+H: *Ask.* Bring Him your own needs. He told you to.
+H: *Thank.* Count the mercies you have already been given.
+H: *Intercede.* Pray for someone else, by name.
+H: >> Adore. Confess. Ask. Thank. Intercede. *Try it tomorrow morning.*
+B: A 300-year-old outline from Matthew Henry
+C: In 1710 Matthew Henry published a method for people who sat down to pray and did not know what to say.
+
+His outline is five moves, in this order. It has not needed updating in three hundred years.
+
+Swipe through, then try it once.
+R: MH
+
+@@ OL03 | oneliner | | |
+H: THE DELAY YOU ARE PRAYING AGAINST MAY BE *THE ANSWER.*
+C: In October 1876 a sea captain sat becalmed for six days, asking God why.
+
+He found out when he reached port. A hurricane had passed through the water on either side of him.
+R: OR | From "A Hurricane Passes Around a Ship" in The Wonders of Prayer (1885)
+
+@@ CA03 | carousel | night | city | True story · France
+H: SEVEN LETTERS LAY ON|HIS DESK. AFTER FIVE,|HE TOLD HIS WIFE:|*"PUT THEM INTO THE FIRE."*
+H: He ran a home for three hundred epileptic patients, entirely on faith. He was five hundred pounds in debt and had not slept.
+H: The first five letters were all pleas to take in more patients. He could not bear another one. He headed for the door.
+H: "John," said his wife, *"this won't do. Come back."*
+H: Letter six: a check from a stranger for three hundred pounds. Letter seven: *exactly the rest.* Just that and no more.
+H: The answer was in the two envelopes he almost burned. *What have you stopped opening?*
+C: This was told at a gathering in Paris by the man it happened to, a pastor who had founded a home for epileptic patients at La Force and ran it the way George Muller ran his orphanages: no appeals, only prayer.
+
+He was honest about that morning. He did not meet it with heroic faith. He quit.
+
+His wife called him back to the desk.
+
+Sometimes the person God uses to answer your prayer is the one who will not let you walk away from it.
+R: W | The Seven Letters
+
+@@ TX02 | text | | |
+H: -
+C: For everyone who is tired of being strong. This is Charles Spurgeon, praying for his congregation:
+
+"<<SPURGEON: Our Father, come and rest Thy children now.>>"
+
+Read it once more as your own prayer.
+R: SP
+
+@@ PH04 | story | storm | tree | Recorded 1885
+H: THE TORNADO FLATTENED|EVERY TREE AROUND HER.|*EXCEPT THE ONE*|*SHE PRAYED FOR.*
+C: The storm cut a path through the country that the old account puts at a mile wide. Trees were torn up by the roots. Barns and fences went flat.
+
+Right in the middle of that path stood a small cabin. An elderly widow lived there with her only son.
+
+In front of the cabin was one large tree. The wind caught it and began twisting and thrashing it. If it came down, it would come down on the house.
+
+Everywhere around her, great trees were falling.
+
+She could not hold up a tree. She could not move her house. So she did the one thing left. She knelt and asked the God who "gathereth the wind in his fists" to spare that tree.
+
+When it was over, it was still standing.
+
+It was the only tree left standing for a considerable distance around her cabin.
+
+She did not ask Him to stop the storm. She asked Him for one tree.
+
+Sometimes the prayer is not "take this away." It is "keep this one thing standing."
+R: W
+
+@@ TN03 | thennow | | | 1710
+H: ...that not the least fragment of praying time may be lost.
+H: Thirty seconds at a red light counts. *Use the scraps.*
+B: Matthew Henry
+C: Henry is talking about the small gaps: the pause while someone else is praying, the minute before the meal.
+
+He treated them like a tailor treats cloth. Nothing wasted.
+R: MH
+
+@@ VW03 | verse | storm | | And it happened
+H: He maketh the storm a calm, so that *the waves thereof are still.*
+H: Thunder broke over an Indiana camp meeting. The cloud split in two and passed on either side. Not one drop fell on the camp.
+B: Psalm 107:29
+C: The preacher that day was an old man they called Father Haven. He stopped, prayed, and told the crowd to keep their seats.
+
+More on him soon.
+R: W | No Fear of Thunder
+
+@@ CA04 | carousel | dawn | cabin | True story · Recorded 1885
+H: A STRANGER RODE UP|AT DAWN, HANDED HER|AN ENVELOPE AND|*LEFT WITHOUT A WORD.*
+H: Her husband, a minister, lay sick in bed. A houseful of small children. That evening she told him she had broken their last dollar.
+H: He lay awake most of the night, praying.
+H: That same night, miles away, a man dreamed that a preacher who had once visited his church was *sick and in want.* He did not even know the man's name.
+H: At first light he got the name and address from his own pastor, saddled his horse, and knocked *just as she raised the window shades.*
+H: Ten dollars. While one man prayed in the dark, *God was waking another.*
+C: Their child wrote this down years later.
+
+Nobody in that house had told anyone about the last dollar. The rider did not stay to explain himself. The family only learned the rest of it afterward, from his pastor.
+
+If someone keeps coming to your mind and you cannot say why, it may be worth getting on the horse.
+R: W | A Powerful Dream
+
+@@ OL04 | oneliner | | |
+H: NOT EVERY CLOSED DOOR IS A PUNISHMENT. *SOME ARE A RESCUE.*
+C: A young woman in Liverpool was talked out of a voyage the night before she sailed. Six weeks later word came that the ship had gone down with everyone aboard.
+
+Which closed door are you grateful for now?
+R: OR | From "You Must Not Go" in The Wonders of Prayer (1885)
+
+@@ PH05 | story | storm | church | True story · Indiana
+H: THUNDER CRACKED AS HE|STOOD TO PREACH. HE SAID,|*"NOT ONE DROP WILL*|*FALL HERE TODAY."*
+C: It was a camp meeting in southern Indiana, and it had rained nearly the whole week.
+
+An old preacher they called Father Haven stood up and announced his text. Thunder answered him. The crowd shifted on the benches and looked at the sky.
+
+"Let us engage a moment in prayer," he said.
+
+He asked God to let the storm pass by and not disturb them. Then he looked up.
+
+"Friends, keep your seats. It will not rain one drop here today."
+
+He began to preach. It thundered again. He repeated what he had said. The cloud kept coming until it was nearly on top of them.
+
+Then, the account says, it divided. Half went north and half went south, about a quarter of a mile off on either side. The two halves joined again beyond the camp and moved on.
+
+"Not one solitary drop of rain fell on that encampment."
+
+You can call it weather. The people sitting dry on those benches called it something else.
+R: W | No Fear of Thunder
+
+@@ NL03 | list | gold | | Recorded 1885
+H: 4 :: Times the answer was *already on its way*
+H: A widow prayed for shoes. That same day a schoolmaster *rode two miles to buy them.*
+H: A pastor had paid out his last coin. *The gift was already in his unopened mail.*
+H: A mother prayed for bread. Four miles away a man *put two bushels of flour in a bag.*
+H: A father wrote a telegram begging for prayer. His daughter turned the corner *before he could send it.*
+H: >> "Before they call, *I will answer.*" Isaiah 65:24
+B: From The Wonders of Prayer, 1885
+C: Four accounts from one old book, all with the same shape: the answer left the station before the prayer was finished.
+
+Has that ever happened to you?
+R: W
+
+@@ TN04 | thennow | | | 1710
+H: Religion is so much the business of our lives, and the worship of God so much the business of our religion...
+H: Worship isn't one part of the Christian life. *It's the point of it.*
+B: Matthew Henry
+C: The very first sentence of Henry's book on prayer.
+
+He meant "business" the old way: the main thing you are here to do.
+R: MH
+
+@@ TX03 | text | | |
+H: -
+C: A prayer for before you pray. Spurgeon, to his congregation, asking God to clear the room:
+
+"<<SPURGEON: Lord Jesus, take from us now everything that would hinder>>"
+
+What do you need Him to take away before you can come close?
+R: SP
+
+@@ CA05 | carousel | snow | cabin | True story · Recorded 1885
+H: ONE DAY OF FIREWOOD|LEFT. HER UNBELIEVING|HUSBAND ASKED,|*"WHAT CAN BE DONE?"*
+H: He was disabled and could not work. It was the dead of a northern winter. Aunt Sally said what she always said: *"The Lord will provide."*
+H: He admitted she always said so, "and so it has always proved." *But this time he could see no way.*
+H: "Nor do I," said Aunt Sally. *"But help will come.* God will not desert us."
+H: Before the morning was over, the door opened. It was their son, a soldier they had not heard from in so long *they feared he was dead.*
+H: By sundown he had cut and hauled a full supply of wood. His father said *he would never be distrustful again.*
+C: Notice what Aunt Sally did not say. She did not claim to see how it would work out.
+
+"Nor do I."
+
+Faith is not knowing the way. It is knowing the One who has always found one.
+R: W | "Aunt Sally's" Faith
+
+@@ VW04 | verse | snow | | And it happened
+H: This poor man cried, and the LORD heard him, and *saved him out of all his troubles.*
+H: A Vermont farmer prayed for a thief's conscience. Days later the thief left the stolen sleigh at an inn and rode off into the night.
+B: Psalm 34:6
+C: He did not pray for revenge. He prayed that the man's conscience would not let him rest.
+
+It didn't.
+R: W | How the Stolen Sleigh Was Returned by a Thief
+
+@@ OL05 | oneliner | | |
+H: "THERE WERE *SNAILS* IN THE ARK."
+C: Sammy Hick, the Yorkshire blacksmith, once met a man so worn down he could barely walk the street. Sammy asked how he was getting on in his way to heaven.
+
+"But slowly, I fear."
+
+"Why, bless you, bairn. There were snails in the ark."
+
+It took the snail a long time to get there. He got in the same as the eagle.
+
+If your progress feels slow, this one is for you.
+R: W | Snails in the Ark
+
+@@ PH06 | story | gold | cabin | True story · Plymouth, 1623
+H: THE CORN WAS DYING.|THE PILGRIMS STOPPED|AND *PRAYED ALL DAY.*|BY NIGHT IT RAINED.
+C: Spring, 1623. The Plymouth settlers planted more corn than they ever had. By the time the seed was in the ground, their food was gone.
+
+They lived on what one boat and one net could catch. When the fish failed they dug shellfish out of the sand. Every day they prayed, "Give us this day our daily bread," and every day, somehow, there was something.
+
+Then came drought. By June the corn was withering and the grass looked like hay. Without a harvest, they would starve.
+
+So they set apart a day to humble themselves and pray. They kept at it for eight or nine hours.
+
+The morning was clear and hot. So was the whole forenoon.
+
+Before night it began to rain.
+
+Not a cloudburst that would have beaten the stalks flat. Gentle showers, which kept falling for many days, until the ground was soaked and the drooping corn stood up again.
+
+Afterward they set apart another day. That one was for giving thanks.
+R: W | The Prayer of the Pilgrims for Rain Answered

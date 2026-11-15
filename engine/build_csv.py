@@ -22,7 +22,7 @@ SOURCES = {
 }
 def _credits():
     f = os.path.join(ROOT, 'backgrounds', 'credits.csv')
-    return {r['id']: r['credit'] for r in csv.DictReader(open(f, encoding='utf-8'))} if os.path.exists(f) else {}
+    return {r['id']: r for r in csv.DictReader(open(f, encoding='utf-8'))} if os.path.exists(f) else {}
 CREDITS = _credits()
 
 def parse(path):
@@ -46,7 +46,11 @@ def parse(path):
         p['first_comment'] = SOURCES.get(code, '').format(t=t)
         if code == 'OR' and title: p['first_comment'] = ('An original prayer. ' if p['type'] == 'prayer' else '') + title + '.'
         if code == 'HX': p['first_comment'] = 'Source: ' + title
-        if p['id'] in CREDITS and any(os.path.exists(os.path.join(ROOT, 'backgrounds', p['id'] + e)) for e in ('.jpg', '.jpeg', '.png', '.webp')): p['first_comment'] = (p['first_comment'] + ' Image: ' + CREDITS[p['id']] + '. The Metropolitan Museum of Art, Open Access (public domain).').strip()
+        if p['id'] in CREDITS and any(os.path.exists(os.path.join(ROOT, 'backgrounds', p['id'] + e)) for e in ('.jpg', '.jpeg', '.png', '.webp')):
+            c = CREDITS[p['id']]; note = c['credit']
+            if 'metmuseum.org' in (c.get('url') or ''): note += '. The Metropolitan Museum of Art, Open Access (public domain).'
+            elif not note.endswith('.'): note += '.'
+            p['first_comment'] = (p['first_comment'] + ' Image: ' + note).strip()
         slides = [re.sub(r'\s+', ' ', x.replace('|', ' ').replace('*', '').replace('>>', '').replace('::', ':')).strip() for x in p['headline'].split('||')]
         kind = {'story': 'Illustrated scene with the headline', 'quote': 'Quote card reading', 'prayer': 'Prayer card titled', 'question': 'Question card reading'}.get(p['type'], 'Image reading')
         multi = p['type'] in ('carousel', 'list')

@@ -12,14 +12,14 @@ true stories of answered prayer. Pull `main` before you change anything.
 | `docs/` | Batch 03–05 plans, program notes, storytelling notes, and `Get Photos.command` |
 | `content/` | Editable batch text (`posts_batchNN.txt`), generated `posts_master.csv`, Flow prompt and match CSVs, and `schedule.json` |
 | `engine/` | Image renderer, CSV builder, full-text extractor, ebook builder, and fonts |
-| `scripts/` | `rename_flow_images.py` matches Flow downloads to post ids |
+| `scripts/` | `rename_flow_images.py` matches Flow downloads to post ids. `build_fb_assets.py` rebuilds the Facebook and Instagram brand assets from `brand/flow_src/` |
 | `flow/batchNN/` | Raw Google Flow images for that batch, as downloaded. Drop new renders here. |
 | `backgrounds/` | Photos the renderer uses, named by post id (`S001.jpg`) |
 | `output/` | 461 finished images, 1080×1350 (4:5), named by post id (`S001.jpg`, `CA01-1.jpg`, …) |
 | `preview/` | Contact sheets for each finished batch |
 | `schedule/` | Publer and HighLevel upload CSVs |
 | `site/` | The Astro website and free ebook, built from `content/posts_master.csv` |
-| `brand/` | Page avatar and cover image |
+| `brand/` | Page avatar, Facebook cover, welcome and ebook posts, story templates, highlight icons, and the Flow source photos in `brand/flow_src/` |
 | `bank/` | The four source books parsed into spreadsheets, for later batches |
 | `archive/` | Old folders and stale files, kept for reference |
 
@@ -44,7 +44,7 @@ Batches 01–05 are 420 scheduled posts (461 images, counting carousel slides), 
 
 ## To launch
 
-1. Create the page, upload `brand/avatar_1080.png` and `brand/cover_1640x924.png`, paste the bio.
+1. Create the page, upload `brand/avatar_1080.png` and `brand/fb_cover_1640x924.jpg`, paste the bio. Welcome post, ebook post, story templates, and highlight covers are also in `brand/`.
 2. Upload the contents of `output/` to R2 under `hestillanswers/` (see "Hosting on R2" below). The CSVs already carry those links.
 3. Upload the files in `schedule/` to Publer or HighLevel. Check the first few rows in the preview before confirming. Posting starts 2026-11-23.
 4. Times in the CSV are 05:45, 09:30 and 16:45 for batch 01, plus 12:45 for batches 02–05, written for a Pacific-time scheduler account (8:45am, 12:30pm, 3:45pm, and 7:45pm Eastern). Change with `--times`.

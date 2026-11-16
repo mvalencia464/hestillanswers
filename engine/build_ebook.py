@@ -4,7 +4,7 @@
   python3 engine/build_ebook.py [--site https://hestillanswers.pages.dev]
 
 Writes site/public/ebook/30-true-stories-of-answered-prayer.pdf and site/public/ebook/cover.jpg.
-The stories are the same retellings that run on Facebook, minus the Facebook-only lines.
+Where a word-for-word source passage was recovered, that full text is used. Otherwise the story is the Facebook retelling, minus Facebook-only lines.
 """
 import os, re, csv, argparse
 from PIL import Image, ImageDraw, ImageFont
@@ -54,18 +54,30 @@ def sentence_case(head, src):
 def esc(s): return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
 def clean(s): return re.sub(r'\s+', ' ', s.replace('*', '').replace('|', ' ').replace('>>', '')).strip()
 
+def site_source(r):
+    src = re.sub(r'\s*Image:.*$', '', r['first_comment']).strip()
+    if (r.get('full_text') or '').strip():
+        if re.search(r'Retold here in modern English\.?', src):
+            src = re.sub(r'Retold here in modern English\.?', 'Quoted word for word.', src)
+        elif 'Quoted word for word' not in src:
+            src = src.rstrip('.') + '. Quoted word for word.'
+    src = re.sub(r'^Source:\s*', '', src)
+    return src
+
 def story(r):
     parts = [p.strip() for p in r['headline'].split('||') if p.strip()]
     title = sentence_case(clean(parts[0]), r['caption'] + ' and God, Lord, Jesus, Christ')
+    full = (r.get('full_text') or '').strip()
+    if full:
+        paras = [p.strip() for p in re.split(r'\n\s*\n', full) if p.strip()]
+        return title, paras, site_source(r)
     paras = []
     if r['type'] == 'carousel':
         paras += [sentence_case(clean(p), r['caption']) if clean(p).isupper() else clean(p) for p in parts[1:]]
     for p in re.split(r'\n\s*\n', r['caption']):
         sents = [s for s in re.split(r'(?<=[.!?"”])\s+(?=[A-Z"“])', p.strip()) if s and not FB_ONLY.search(s)]
         if sents: paras.append(' '.join(sents))
-    src = re.sub(r'\s*Image:.*$', '', r['first_comment']).strip()
-    src = re.sub(r'^Source:\s*', '', src)
-    return title, paras, src
+    return title, paras, site_source(r)
 
 class Rule(Flowable):
     def __init__(self, w=36, color=GOLD, thick=2.2): super().__init__(); self.w, self.c, self.t = w, color, thick
@@ -85,7 +97,7 @@ def make_cover(path, w=900, h=1350):
     center('OF ANSWERED PRAYER', 780, F('Poppins-ExtraBold.ttf', 64), (246, 183, 40))
     d.line([w/2 - 60, 892, w/2 + 60, 892], fill=(246, 183, 40), width=4)
     center('Recorded in the 1800s.', 930, F('Lora-Italic-Variable.ttf', 36), (232, 224, 208))
-    center('Retold in plain English.', 978, F('Lora-Italic-Variable.ttf', 36), (232, 224, 208))
+    center('Quoted from the old accounts.', 978, F('Lora-Italic-Variable.ttf', 36), (232, 224, 208))
     sp = F('Poppins-Bold.ttf', 26); t = 'HE STILL ANSWERS'; x = (w - sum(d.textlength(c, font=sp) + 6 for c in t)) / 2
     for c in t: d.text((x, 1230), c, font=sp, fill=(200, 192, 176)); x += d.textlength(c, font=sp) + 6
     im.save(path, quality=90)
@@ -120,7 +132,7 @@ def main():
     flow = [NextPageTemplate('body'), PageBreak()]
     flow += [Spacer(1, 40), Paragraph('Before you read', h1), Rule(), Spacer(1, 14)]
     intro = ['The thirty accounts in this book were written down in the 1800s by the people who lived them, or by pastors, editors and friends who heard them first-hand. Most were gathered in 1885 in a book called <i>The Wonders of Prayer</i>. A few come from other records of the time, and one is Abraham Lincoln\'s own farewell to his neighbors.',
-             'They are retold here in plain modern English. Nothing has been invented: where an old account leaves something out, so does this one. Each story ends with a note on where it was first recorded.',
+             'Where the original account could be recovered cleanly, it is quoted word for word from <i>The Wonders of Prayer</i> (1885) or from Lincoln\'s Springfield farewell as printed there. A few stories are still given in a careful modern retelling. Nothing has been invented: where an old account leaves something out, so does this one. Each story ends with a note on where it was first recorded.',
              'Read one a day if you like. Several end with a question. Sit with it before you turn the page.']
     flow += [Paragraph(t, body) for t in intro]
     flow += [PageBreak(), Spacer(1, 24), Paragraph('Contents', h1), Rule(), Spacer(1, 12), toc, PageBreak()]
@@ -134,7 +146,7 @@ def main():
              Paragraph(f'There are hundreds more stories, prayers and old words at <b>{a.site.replace("https://", "")}</b>, and a new letter in your inbox each week.', ParagraphStyle('C', parent=body, alignment=TA_CENTER)),
              Spacer(1, 8), Paragraph('If one of these stories helped you, send it to someone who needs it today.', ParagraphStyle('C2', parent=body, alignment=TA_CENTER, fontName='Lora-I')),
              Spacer(1, 60), Paragraph('A note on sources', ParagraphStyle('H3', parent=kick, fontSize=8.5)),
-             Paragraph('The Wonders of Prayer (1885), the New Cyclopaedia of Prose Illustrations (1875), Lincoln\'s Springfield farewell (1861) and the histories of the Fulton Street prayer meeting (1857) are all in the public domain. The retellings in this book are by He Still Answers.', ParagraphStyle('S2', parent=src))]
+             Paragraph('The Wonders of Prayer (1885), the New Cyclopaedia of Prose Illustrations (1875), Lincoln\'s Springfield farewell (1861) and the histories of the Fulton Street prayer meeting (1857) are all in the public domain. A few modern retellings in this book are by He Still Answers.', ParagraphStyle('S2', parent=src))]
     doc.multiBuild(flow)
     print('ebook:', os.path.relpath(doc.filename, ROOT))
 

@@ -31,15 +31,16 @@ def parse(path):
         if raw.startswith('#'): continue
         if raw.startswith('@@'):
             a = [x.strip() for x in raw[2:].split('|')] + [''] * 5
-            cur = dict(id=a[0], type=a[1], scene=a[2], element=a[3], tag=a[4], headline='', attribution='', caption='', src=''); posts.append(cur); field = None; continue
+            cur = dict(id=a[0], type=a[1], scene=a[2], element=a[3], tag=a[4], headline='', attribution='', caption='', full_text='', src=''); posts.append(cur); field = None; continue
         if cur is None: continue
-        m = re.match(r'^([HBCR]): ?(.*)$', raw)
+        m = re.match(r'^([HBCFR]): ?(.*)$', raw)
         if m:
-            field = {'H': 'headline', 'B': 'attribution', 'C': 'caption', 'R': 'src'}[m.group(1)]
+            field = {'H': 'headline', 'B': 'attribution', 'C': 'caption', 'R': 'src', 'F': 'full_text'}[m.group(1)]
             cur[field] = (cur[field] + ' || ' + m.group(2)) if (field == 'headline' and cur[field]) else m.group(2)
-        elif field == 'caption': cur['caption'] += '\n' + raw
+        elif field in ('caption', 'full_text'): cur[field] += '\n' + raw
     for p in posts:
         p['caption'] = p['caption'].strip()
+        p['full_text'] = p.get('full_text', '').strip()
         parts = [x.strip() for x in p['src'].split('|')] + ['']; code, title = parts[0], parts[1]
         t = ''
         if title: t = f' ("{title}")' if code in ('W', 'CY') else ''
@@ -96,7 +97,7 @@ def main():
         if a.start: b['start'] = a.start
         if a.times: b['times'] = [t.strip() for t in a.times.split(',')]
     json.dump(cfg, open(cfg_path, 'w'), indent=2); base = cfg['base_url']
-    cols = ['id', 'batch', 'day', 'date', 'time', 'type', 'headline', 'attribution', 'tag', 'scene', 'element', 'caption', 'first_comment', 'alt_text', 'image_file', 'image_url', 'source']
+    cols = ['id', 'batch', 'day', 'date', 'time', 'type', 'headline', 'attribution', 'tag', 'scene', 'element', 'caption', 'full_text', 'first_comment', 'alt_text', 'image_file', 'image_url', 'source']
     os.makedirs(os.path.join(ROOT, 'schedule'), exist_ok=True); allrows = []
     for batch, b in sorted(cfg['batches'].items()):
         posts = parse(os.path.join(ROOT, 'content', batch)); name = os.path.splitext(batch)[0].replace('posts_', '')

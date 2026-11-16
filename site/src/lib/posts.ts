@@ -16,7 +16,7 @@ export interface Entry {
 }
 
 export const SECTIONS: Record<Section, { name: string; blurb: string }> = {
-  stories:   { name: 'Stories',   blurb: 'True accounts of answered prayer, most of them recorded in 1885 and retold in plain English.' },
+  stories:   { name: 'Stories',   blurb: 'True accounts of answered prayer, most of them recorded in 1885 and quoted word for word from the original books.' },
   prayers:   { name: 'Prayers',   blurb: 'Prayers of C. H. Spurgeon and Matthew Henry, and prayers written for the hard places of life.' },
   words:     { name: 'Old Words', blurb: 'Lines from Spurgeon, Matthew Henry and the old guides that still burn.' },
   verses:    { name: 'Verses',    blurb: 'Promises of Scripture, each set beside a true account.' },
@@ -101,16 +101,27 @@ export function getEntries(): Entry[] {
     if (r.type === 'thennow') { quoteOld = clean(parts[0]); title = clean(parts[1] || ''); }
     if (r.type === 'verse') slides = parts.slice(1).map(clean);
     if (r.type === 'text') title = 'A prayer of C. H. Spurgeon';
-    const body = paragraphs(r.caption);
+    const hasFull = !!(r.full_text && r.full_text.trim());
+    const body = hasFull
+      ? r.full_text.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean)
+      : paragraphs(r.caption);
     let t = sentenceCase(title, r.caption + ' ' + r.attribution + ' and God, Lord, Jesus, Christ, Jehovah').replace(/[,;:]\s*$/, '');
     if (TITLE_OVERRIDES[r.id]) t = TITLE_OVERRIDES[r.id];
     const readable = r.type === 'text' ? `${t}: ${(body[1] || body[0] || '').replace(/^["“]/, '').slice(0, 40).replace(/\s\S*$/, '')}…` : t;
     const slug = `${r.id.toLowerCase()}-${slugify(r.type === 'text' ? readable : t)}`;
     const desc = (body.join(' ') || t).replace(/\s+/g, ' ');
+    let source = r.first_comment;
+    if (hasFull) {
+      if (/Retold here in modern English\.?/.test(source)) source = source.replace(/Retold here in modern English\.?/, 'Quoted word for word.');
+      else if (!/Quoted word for word/.test(source)) {
+        source = source.replace(/(\s*Image:)/, ' Quoted word for word.$1');
+        if (!/Quoted word for word/.test(source)) source = source.replace(/\s*$/, ' Quoted word for word.');
+      }
+    }
     out.push({
       id: r.id, section, type: r.type, slug, url: `/${section}/${slug}/`,
       title: readable, display: title, attribution: r.attribution, tag: r.tag, slides, quoteOld, body,
-      source: r.first_comment, images: r.image_url ? r.image_url.split(',') : [], alt: r.alt_text,
+      source, images: r.image_url ? r.image_url.split(',') : [], alt: r.alt_text,
       description: desc.length > 158 ? desc.slice(0, 155).replace(/\s\S*$/, '') + '…' : desc, date: r.date,
     });
   }

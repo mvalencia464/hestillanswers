@@ -46,6 +46,7 @@ def parse(path):
         p['first_comment'] = SOURCES.get(code, '').format(t=t)
         if code == 'OR' and title: p['first_comment'] = ('An original prayer. ' if p['type'] == 'prayer' else '') + title + '.'
         if code == 'HX': p['first_comment'] = 'Source: ' + title
+        if code == 'MH' and title: p['first_comment'] = f'Source: Matthew Henry, {title}. Public domain. Quoted word for word.'
         if p['id'] in CREDITS and CREDITS[p['id']].get('credit') and any(os.path.exists(os.path.join(ROOT, 'backgrounds', p['id'] + e)) for e in ('.jpg', '.jpeg', '.png', '.webp')):
             c = CREDITS[p['id']]; note = c['credit']
             if 'metmuseum.org' in (c.get('url') or ''): note += '. The Metropolitan Museum of Art, Open Access (public domain).'
@@ -110,9 +111,12 @@ def main():
             w = csv.writer(f)
             w.writerow(['Date', 'Text', 'Link', 'Media URLs', 'Title', 'Labels', 'Alt text(s)', 'Comment(s)', 'Pin board, FB album, or Google category', 'Post subtype', 'CTA', 'Reminder'])
             for p in rows: w.writerow([f'{p["date"].replace("-", "/")} {p["time"]}', p['caption'], '', p['image_url'], '', f'{name},{p["type"]}', p['alt_text'], p['first_comment'], '', '', '', ''])
-        with open(os.path.join(ROOT, 'schedule', f'highlevel_{name}.csv'), 'w', newline='', encoding='utf-8') as f:
-            w = csv.writer(f); w.writerow(['postAtSpecificTime', 'content', 'OGmetaUrl', 'imageUrls', 'gifUrl', 'videoUrls'])
-            for p in rows: w.writerow([f'{p["date"]} {p["time"]}:00', p['caption'], '', p['image_url'], '', ''])
+        parts = -(-len(rows) // 90); size = -(-len(rows) // parts)          # HighLevel takes at most 90 posts per CSV
+        for k in range(parts):
+            fn = f'highlevel_{name}.csv' if parts == 1 else f'highlevel_{name}_part{k + 1}.csv'
+            with open(os.path.join(ROOT, 'schedule', fn), 'w', newline='', encoding='utf-8') as f:
+                w = csv.writer(f); w.writerow(['postAtSpecificTime', 'content', 'OGmetaUrl', 'imageUrls', 'gifUrl', 'videoUrls'])
+                for p in rows[k * size:(k + 1) * size]: w.writerow([f'{p["date"]} {p["time"]}:00', p['caption'], '', p['image_url'], '', ''])
         print(f'{name}: {len(rows)} posts, {rows[0]["date"]} to {rows[-1]["date"]} at {", ".join(times)}'); allrows += rows
     allrows.sort(key=lambda p: (p['date'], p['time']))
     with open(os.path.join(ROOT, 'content', 'posts_master.csv'), 'w', newline='', encoding='utf-8') as f:

@@ -210,11 +210,29 @@ FOCUS = _focus()
 
 def photo_bg(path, focus_y=0.30):
     """Cover-crop any photo to 4:5. Optional per-image focus point comes from backgrounds/credits.csv."""
+    im = Image.open(path).convert('RGB')
+    if abs(im.width / im.height - 0.75) < 0.01: focus_y = 0.5      # 3:4 Flow images: plain center crop to 4:5
     fx, fy = FOCUS.get(os.path.splitext(os.path.basename(path))[0], (0.5, focus_y))
-    im = Image.open(path).convert('RGB'); r = max(W / im.width, H / im.height)
+    r = max(W / im.width, H / im.height)
     im = im.resize((math.ceil(im.width * r), math.ceil(im.height * r)), Image.LANCZOS)
     left = int((im.width - W) * fx); topy = int((im.height - H) * fy)
     return np.asarray(im.crop((left, topy, left + W, topy + H)), float)
+
+PHOTO_FIT = os.environ.get('HSA_FIT', 'cover')   # 'contain' keeps the whole 3:4 photo above the text
+
+def contain_bg(path, area_h):
+    """Whole photo, uncropped, scaled to sit above the text area. The sides are filled with a blurred,
+    darkened copy of the same photo, so the subject can never land under the headline."""
+    im = Image.open(path).convert('RGB'); area_h = int(min(area_h, H)); w = int(im.width * area_h / im.height)
+    if w >= W: return photo_bg(path)
+    r = max(W / im.width, H / im.height)
+    back = im.resize((math.ceil(im.width * r), math.ceil(im.height * r)), Image.LANCZOS)
+    back = back.crop(((back.width - W) // 2, (back.height - H) // 2, (back.width - W) // 2 + W, (back.height - H) // 2 + H))
+    back = np.asarray(back.filter(ImageFilter.GaussianBlur(38)), float) * 0.42
+    fg = np.asarray(im.resize((w, area_h), Image.LANCZOS), float); x0 = (W - w) // 2
+    feather = 46; m = np.ones(w); ramp = np.linspace(0, 1, feather); m[:feather] = ramp; m[-feather:] = ramp[::-1]
+    out = back.copy(); out[:area_h, x0:x0 + w] = fg * m[None, :, None] + back[:area_h, x0:x0 + w] * (1 - m[None, :, None])
+    return out
 
 def find_bg(pid):
     for ext in ('jpg', 'jpeg', 'png', 'webp', 'JPG', 'PNG'):
@@ -239,24 +257,30 @@ def wrap(toks, f, maxw, d):
     return lines
 
 def fit(text, mk, sizes, maxw, maxh, max_lines, lh, d):
-    """Largest size at which text fits. '|' in text forces line breaks."""
-    for s in sizes:
-        f = mk(s)
-        if '|' in text:
-            lines = [tokens(p) for p in text.split('|')]
-            # carry highlight state across manual breaks
-            lines, g = [], False
-            for p in text.split('|'):
-                row = []
-                for part in re.split(r'(\*)', p):
-                    if part == '*': g = not g; continue
-                    row += [(w, g) for w in part.split()]
-                lines.append(row)
-            ok = all(sum(d.textlength(w, font=f) for w, _ in ln) + d.textlength(' ', font=f) * (len(ln) - 1) <= maxw for ln in lines)
-        else:
-            lines = wrap(tokens(text), f, maxw, d)
-            ok = all(sum(d.textlength(w, font=f) for w, _ in ln) + d.textlength(' ', font=f) * (len(ln) - 1) <= maxw for ln in lines)
-        if ok and len(lines) <= max_lines and len(lines) * s * lh <= maxh: return f, s, lines
+    """Largest size at which text fits. '|' in text forces line breaks.
+    Pass 1: the written line breaks within the line limit. Pass 2: written breaks, one extra line allowed.
+    Pass 3: if a written line can never fit the width, re-wrap the words and ignore the breaks."""
+    def manual(f):
+        rows, g = [], False
+        for part_ in text.split('|'):
+            row = []
+            for part in re.split(r'(\*)', part_):
+                if part == '*': g = not g; continue
+                row += [(w, g) for w in part.split()]
+            rows.append(row)
+        return rows
+    def width(ln, f): return sum(d.textlength(w, font=f) for w, _ in ln) + d.textlength(' ', font=f) * (len(ln) - 1)
+    def ok(lines, f, s, limit): return all(width(ln, f) <= maxw for ln in lines) and len(lines) <= limit and len(lines) * s * lh <= maxh
+    cands = (lambda f: manual(f)) if '|' in text else (lambda f: wrap(tokens(text), f, maxw, d))
+    for limit in (max_lines, max_lines + 1):
+        for s in sizes:
+            f = mk(s); lines = cands(f)
+            if ok(lines, f, s, limit): return f, s, lines
+    flat = text.replace('|', ' ')
+    for limit in (max_lines, max_lines + 1, 99):
+        for s in sizes:
+            f = mk(s); lines = wrap(tokens(flat), f, maxw, d)
+            if ok(lines, f, s, limit): return f, s, lines
     return f, s, lines
 
 def draw_lines(d, lines, f, s, lh, cx, y, base, hi, marker=None):
@@ -306,7 +330,8 @@ def t_story(p, slide=None):
     f, s, lines = fit(p['headline'].upper(), sans, range(88, 46, -2), W - 110, 520, 5, 1.14, scratch)
     block = len(lines) * s * 1.14; text_top = H - 108 - lift - block; div_y = text_top - 58
     bgp = find_bg(p['id'])
-    base = photo_bg(bgp) if bgp else scene(p['id'], p.get('scene') or 'dawn', p.get('element') or '', horizon=max(0.30, min(0.50, (div_y - 300) / H)))
+    if bgp and PHOTO_FIT == 'contain': base = contain_bg(bgp, div_y + 120)
+    else: base = photo_bg(bgp) if bgp else scene(p['id'], p.get('scene') or 'dawn', p.get('element') or '', horizon=max(0.30, min(0.50, (div_y - 300) / H)))
     img = overlay(base, div_y - 230, div_y + 20)
     a = np.clip(1 - np.arange(H) / 190.0, 0, 1)[:, None, None] * 0.45; img = img * (1 - a) + np.array(INK, float) * a
     im = finish(img, seed=seed_of(p['id'])); d = ImageDraw.Draw(im)
@@ -335,14 +360,19 @@ def t_quote(p):
     e = emblem(54); im.paste(e, (W // 2 - 27, H - 152), e); footer(d); return im
 
 def t_prayer(p):
-    bgp = find_bg(p['id'])
-    base = photo_bg(bgp, 0.5) if bgp else scene(p['id'], p.get('scene') or 'dawn', '', horizon=0.50, orb=False)
-    img = base * 0.62 + np.array(INK, float) * 0.38; img = overlay(img, H * 0.50, H * 0.92, 0.9)
-    im = finish(img, seed=seed_of(p['id'])); d = ImageDraw.Draw(im)
-    f, s, lines = fit(p['headline'].upper(), sans, range(116, 54, -2), W - 170, 400, 3, 1.10, d)
+    bgp = find_bg(p['id']); scratch = ImageDraw.Draw(Image.new('RGB', (10, 10)))
+    f, s, lines = fit(p['headline'].upper(), sans, range(116, 54, -2), W - 170, 400, 3, 1.10, scratch)
     sub = p.get('attribution') or ''
-    sf, ss, sl = fit(sub, lambda z: serif(z, 500, True), range(54, 34, -2), W - 230, 300, 4, 1.34, d)
-    block = 70 + len(lines) * s * 1.10 + 40 + len(sl) * ss * 1.34; y = (H - 90 - block) / 2
+    sf, ss, sl = fit(sub, lambda z: serif(z, 500, True), range(54, 34, -2), W - 230, 300, 4, 1.34, scratch)
+    block = 70 + len(lines) * s * 1.10 + 40 + len(sl) * ss * 1.34
+    if bgp and PHOTO_FIT == 'contain':     # photo stays whole on top, the prayer panel sits underneath it
+        y = H - 190 - block - 50
+        img = overlay(contain_bg(bgp, y + 40) * 0.92, y - 160, y + 10, 0.95)
+    else:
+        y = (H - 90 - block) / 2
+        base = photo_bg(bgp, 0.5) if bgp else scene(p['id'], p.get('scene') or 'dawn', '', horizon=0.50, orb=False)
+        img = base * 0.62 + np.array(INK, float) * 0.38; img = overlay(img, H * 0.50, H * 0.92, 0.9)
+    im = finish(img, seed=seed_of(p['id'])); d = ImageDraw.Draw(im)
     pan = Image.new('RGBA', im.size, (0, 0, 0, 0)); pd = ImageDraw.Draw(pan)
     pd.rounded_rectangle([60, y - 60, W - 60, y + block + 50], radius=36, fill=(10, 13, 20, 150))
     im = Image.alpha_composite(im.convert('RGBA'), pan).convert('RGB'); d = ImageDraw.Draw(im)

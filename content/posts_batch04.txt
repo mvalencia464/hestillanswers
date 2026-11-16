@@ -9,13 +9,13 @@ R: W | How the Lord Controls even the Locomotive and the Railroad Train.
 H: SHE HAD NO MONEY|AND NEEDED A HAT.|SHE ASKED, AND A DOLLAR|*CAME IN A LETTER.*
 C: The writer had been without money and wanted a new hat. With no one else to ask, she told the Lord, if it was his will, to send money for it in his own way. Days passed. A letter came from a lady she had never seen, enclosing one dollar. She bought the hat, and she said she could not have used that dollar for anything else.
 
-The same account later mentions a physician's order. This post stops at the hat.
+The same account later mentions a physician's order.
 R: W | Praying For A New Hat. 
 
 @@ P038 | prayer | dawn | church | C. H. Spurgeon
-H: BEFORE THY AWFUL THRONE|WE BOW WITH SACRED JOY.
+H: BEFORE JEHOVAH’S|AWFUL THRONE, WE BOW|*WITH SACRED JOY.*
 B: O Thou who art King of kings and Lord of lords, we worship Thee. Before Jehovah's awful throne, we bow with sacred joy. We can truly say that we delight in God. There was a time when we feared Thee, O God, with the fear of bondage. Now we reverence, but we love as much as we reverence.
-C: These are Spurgeon's words, from Prayer 1, Help from On High. Nothing has been added.
+C: These are Spurgeon's words, from Prayer 1, Help from On High.
 R: SP | Prayer 1. Help from On High. 
 
 @@ S084 | story | gold | city | True story · Recorded 1885
@@ -27,7 +27,7 @@ R: W | Praying for Tea.
 
 @@ T037 | question | parchment | church | A question from the old guides
 H: WILL WE STIR|OURSELVES UP|TO TAKE HOLD|*ON GOD?*
-C: Matthew Henry writes, Let us stir up ourselves to take hold on God. This card asks only what that sentence asks. A Method for Prayer, page 32.
+C: Matthew Henry writes, Let us stir up ourselves to take hold on God. A Method for Prayer, page 32.
 R: MH | A Method for Prayer, page 32. 
 
 @@ S085 | story | storm | church | True story · Virginia
@@ -45,9 +45,9 @@ Soon after, a missionary box arrived at the seminary, and L. was supplied with u
 R: W | Under Garments In Answer To Prayer. 
 
 @@ P039 | prayer | dusk | city | C. H. Spurgeon
-H: HELP US TO TAKE|THE WARNING OF THINE|ANCIENT PEOPLE.
+H: HELP US TO TAKE|ITS WARNING TO AVOID|*THE FAULTS INTO WHICH THEY FELL!*
 B: Jehovah our God, we thank Thee for leaving on record the story of Thine ancient people. It is full of instruction to ourselves. Help us to take its warning to avoid the faults into which they fell! Thou art a covenant God and Thou keepest Thy promises and Thy Word never faileth.
-C: These are Spurgeon's words, from Prayer 11, Under The Blood. Nothing has been added.
+C: These are Spurgeon's words, from Prayer 11, Under The Blood.
 R: SP | Prayer 11. Under The Blood. 
 
 @@ S087 | story | dusk | city | True story · Ava
@@ -67,7 +67,7 @@ H: CASTING ALL YOUR CARE|UPON HIM.
 B: 1 Peter 5:7
 C: A widow had a bill of fifty dollars due. The tenant was silent. She had asked an editor for twenty dollars for a manuscript. He sent fifty, with thirty credited on the next. The check arrived half an hour before the creditor, who came at ten.
 
-The verse is the one the book sets over that morning. Wonders of Prayer, Casting All Your Care.
+Wonders of Prayer, Casting All Your Care.
 R: W | Casting All Your Care On Him. 
 
 @@ S088 | story | night | city | True story · Recorded 1885
@@ -78,9 +78,9 @@ She asked to be shown a way before night, or taken that day. She slept, woke sur
 R: W | Saved From Starvation. 
 
 @@ P040 | prayer | dawn | church | C. H. Spurgeon
-H: THOU HAST GIVEN JESUS|TO BE TO THEM A LEADER,|*A COMMANDER, AND A HUSBAND.*
-B: Jehovah, our God, Thou lovest Thy people, Thou hast placed all the saints in the hand of Jesus and Thou hast given Jesus to be to them a leader, a commander, and a husband.
-C: These are Spurgeon's words, from Prayer 25, The Washing of Water By The Word. Nothing has been added.
+H: THOU HAST GIVEN JESUS|TO BE TO THEM A LEADER,|*A COMMANDER, AND A HUSBAND*
+B: Jehovah, our God, Thou lovest Thy people, Thou hast placed all the saints in the hand of Jesus and Thou hast given Jesus to be to them a leader, a commander, and a husband…
+C: These are Spurgeon's words, from Prayer 25, The Washing of Water By The Word.
 R: SP | Prayer 25. The Washing of Water By The Word. 
 
 @@ T039 | question | parchment | church | A question from the old guides
@@ -105,7 +105,7 @@ R: W | Money For Postage.
 @@ P041 | prayer | dusk | road | C. H. Spurgeon
 H: TEACH US AS CHILDREN|TO SPEAK TO THE FATHER,|AND YET AS CREATURES|*TO BOW BEFORE OUR MAKER.*
 B: God of Israel, God of Jesus Christ, our God forever and ever! Help us now by the sacred Spirit to approach Thee aright with deepest reverence, but not with servile fear, with holiest boldness, but not with presumption. Teach us as children to speak to the Father and yet as creatures to bow before our Maker.
-C: These are Spurgeon's words, from Prayer 26, Prayer Answered and Unanswered. Nothing has been added.
+C: These are Spurgeon's words, from Prayer 26, Prayer Answered and Unanswered.
 R: SP | Prayer 26. Prayer Answered and Unanswered. 
 
 @@ S091 | story | dusk | road | True story · Recorded 1885
@@ -135,7 +135,7 @@ R: W | A Little Slave's Faith.
 @@ P042 | prayer | dawn | road | Matthew Henry
 H: EARLY WILL WE SEEK THEE.|OUR GOD, AND WE WILL|*PRAISE THEE.*
 B: O God, thou art our God, early will we seek thee; Our God, and we will praise thee; our fathers God, and we will exalt thee.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 33. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 33.
 R: MH | A Method for Prayer, page 33. 
 
 @@ S094 | story | night | road | True story · Near Harrowgate
@@ -143,8 +143,6 @@ H: HE GAVE ALL HE HAD|AT THE MISSIONARY|MEETING. TWENTY MILES|HOME, A NOTE *WAS 
 C: Samuel Hick said he had been very happy at a missionary meeting near Harrowgate and had given all the money in his pocket. No one paid his expenses. He was advanced in life, a slow rider, on a horse that was not sprightly, at night, alone, twenty miles from home.
 
 By starlight a five-pound note was put in his hand, with the words that he loved God and his cause and would never want. He cried for joy. At home his wife burst into tears and they praised the Lord. He said they never gave to the Lord but he gave in return.
-
-This is a later incident in Hick's life, not the miller and the wind already used in batch 02.
 R: W | He Gave All The Money He Had. 
 
 @@ T041 | question | parchment | church | A question from the old guides
@@ -170,7 +168,7 @@ R: W | A Steward Of His Lord's Bounty.
 @@ P043 | prayer | dawn | cabin | Matthew Henry
 H: THE EYES OF ALL|WAIT UPON THEE.
 B: The eyes of all wait upon thee, and thou givest them their meat in due season: Thou openest thy hand, and satisfiest the desire of every living thing.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 41. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 41.
 R: MH | A Method for Prayer, page 41. 
 
 @@ T042 | question | parchment | church | A question from the old guides
@@ -195,7 +193,7 @@ R: W | A Little Girl's Beautiful Faith.
 @@ P044 | prayer | night | city | Matthew Henry
 H: THE DESIRE OF OUR|SOULS IS TO THY NAME,|AND TO THE REMEMBRANCE|*OF THEE.*
 B: The desire of our souls is to thy name, and to the remembrance of thee; with our souls have we desired thee in the night, and with our spirits within us will we seek thee early.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 49. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 49.
 R: MH | A Method for Prayer, page 49. 
 
 @@ S098 | story | dawn | city | As told by C. H. Spurgeon
@@ -227,7 +225,7 @@ R: W | Praying For A Sewing Machine.
 @@ P045 | prayer | gold | city | Matthew Henry
 H: IF WE KNEW NOTHING|BY OURSELVES, YET|WERE WE NOT THEREBY|*JUSTIFIED.*
 B: If we knew nothing by ourselves, yet were we not thereby justified, for he that judgeth us is the Lord; who is greater than our hearts, and knows all things.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 60. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 60.
 R: MH | A Method for Prayer, page 60. 
 
 @@ S101 | story | dawn | road | True story · Rhode Island
@@ -258,9 +256,9 @@ An express package came with $200 from a man he had not seen for years. The note
 R: W | Bread To The Hungry. 
 
 @@ P046 | prayer | gold | city | Matthew Henry
-H: AS A FOUNTAIN CASTETH|OUT HER WATERS, SO|DOES THE HEART *CAST OUT WICKEDNESS.*
+H: AS A FOUNTAIN CASTETH|OUT HER WATERS, SO DO|OUR HEARTS *CAST OUT WICKEDNESS*
 B: As a fountain casteth out her waters, so do our hearts cast out wickedness; and this hath been our manner from our youth up, that we have not obeyed thy voice.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 68. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 68.
 R: MH | A Method for Prayer, page 68. 
 
 @@ T045 | question | parchment | church | A question from the old guides
@@ -272,7 +270,7 @@ R: MH | A Method for Prayer, page 126.
 H: TWO LITTLE JEWESSES|ON THE TRAIN SAID|THEY LOVED JESUS.|THEIR FATHER HAD BEEN|*ELEVEN YEARS AWAY.*
 C: A converted Jew at the Fulton Street prayer meeting told of a train ride. Two little Jewesses said they loved Jesus, and they asked if he did. Their mother had gone to gospel meetings for Jews. Their father had not been to church for eleven years.
 
-The daughter asked her mother to pray that her father would go. He came, and was converted. This post stops there. The same account later says the mother was relieved of pain. That part is not used here.
+The daughter asked her mother to pray that her father would go. He came, and was converted. The same account later says the mother was relieved of pain. That part is not used here.
 R: W | The Faith Of A Little Child. 
 
 @@ S104 | story | night | city | True story · Recorded 1885
@@ -283,9 +281,9 @@ He told her he would sign the pledge. She said she would stay and see him do it,
 R: W | A Child's Prayer For Papa. 
 
 @@ P047 | prayer | dawn | cabin | Matthew Henry
-H: WE HAVE ILL REQUITED|THEE, O LORD, OUR FATHER.
+H: WE HAVE ILL REQUITED|THEE, O LORD, AS FOOLISH|*PEOPLE AND UNWISE*
 B: We have ill requited thee, O Lord, as foolish people and unwise: Though thou art our Father that hast made us, and bought us, and established us, yet our spot has not been the spot of thy children.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 76. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 76.
 R: MH | A Method for Prayer, page 76. 
 
 @@ S105 | story | dusk | city | True story · Jersey City
@@ -317,7 +315,7 @@ R: W | Noah's Prayer.--He Did Not Get Discouraged.
 @@ P048 | prayer | dawn | road | Matthew Henry
 H: O PURGE US WITH HYSSOP,|AND WE SHALL BE CLEAN.
 B: O purge us with hyssop and we shall be clean, wash us and we shall be whiter than snow: Hide thy face from our sins, and blot out all our iniquities.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 88. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 88.
 R: MH | A Method for Prayer, page 88. 
 
 @@ S108 | story | gold | city | True story · Recorded 1885
@@ -336,8 +334,6 @@ R: MH | A Method for Prayer, page 144.
 H: YE CANNOT PROSPER,|BECAUSE YE HAVE|FORSAKEN THE LORD.
 B: As quoted in Wonders of Prayer
 C: In the spring of 1877 a businessman had given a tenth and had prospered. He stopped. He failed. He confessed it to his pastor. The book quotes, Ye cannot prosper, because ye have forsaken the Lord.
-
-The chapter and verse are not printed beside the line in the section used here, so the card does not add a reference.
 R: W | Why He Failed. 
 
 @@ S109 | story | storm | city | True story · Water Street
@@ -350,7 +346,7 @@ R: W | God Cared For Me.
 @@ P049 | prayer | dawn | road | Matthew Henry
 H: IF THY PRESENCE|GO NOT UP WITH US,|CARRY US NOT UP HENCE.
 B: If thy presence go not up with us, carry us not up hence; never leave us nor forsake us.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 95. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 95.
 R: MH | A Method for Prayer, page 95. 
 
 @@ T048 | question | parchment | church | A question from the old guides
@@ -362,7 +358,7 @@ R: MH | A Method for Prayer, page 162.
 H: THE MOTHER WROTE|FOR PRAYER IN AUGUSTA.|THAT HOUR, IN NEW YORK,|HER DAUGHTER *RESOLVED TO FOLLOW CHRIST.*
 C: At the fifty-first daily prayer meeting in Augusta, Georgia, in St. John's M. E. Church, Dr. Irvine read a request from a widowed mother. Her daughter was at a boarding school in New York. She asked prayer that the daughter would be converted.
 
-The daughter later said that at the hour the request was read, she had resolved to follow Christ. The book cites Isaiah 65:24, already used on two earlier cards. This post is the story, not another verse card.
+The daughter later said that at the hour the request was read, she had resolved to follow Christ.
 R: W | Prayer Instantaneously Answered for Conversion. 
 
 @@ S111 | story | dawn | city | True story · London
@@ -375,7 +371,7 @@ R: W | A Prayer For Bread.
 @@ P050 | prayer | gold | cabin | Matthew Henry
 H: LORD, ENABLE US,|IN A DAY OF PROSPERITY,|TO BE JOYFUL, AND|IN A DAY OF ADVERSITY|*TO CONSIDER.*
 B: Lord, enable us, in a day of prosperity to be joyful, and in a day of adversity, to consider, because God hath set the one over against the other; to add to our knowledge temperance, and to temperance patience.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 111. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 111.
 R: MH | A Method for Prayer, page 111. 
 
 @@ S112 | story | night | city | As told by Charles G. Finney
@@ -387,7 +383,7 @@ R: W | The Tavern Keeper Overcome.
 
 @@ T049 | question | parchment | church | A question from the old guides
 H: DO WE WANT|THE BREAD OF|THAT KINGDOM, OR ONLY|*THE BREAD OF THIS ONE?*
-C: Matthew Henry writes of eating bread in the kingdom, and of hidden manna. A Method for Prayer, page 180. This is not a story of a meal.
+C: Matthew Henry writes of eating bread in the kingdom, and of hidden manna. A Method for Prayer, page 180.
 R: MH | A Method for Prayer, page 180. 
 
 @@ S113 | story | dusk | city | True story · A city missionary
@@ -405,16 +401,16 @@ The book sets this beside the line, In everything by prayer and supplication wit
 R: W | In Everything Make Known Your Wants. 
 
 @@ P051 | prayer | dawn | road | Matthew Henry
-H: THEY GOT NOT THE LAND|BY THEIR OWN SWORD.
+H: AND THEY GOT NOT|THE LAND IN POSSESSION|*BY THEIR OWN SWORD*
 B: And they got not the land in possession by their own sword, neither did their own arm save them, but thy right hand, and thine arm, and the light of thy countenance, because thou hadst a favour to them.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 130. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 130.
 R: MH | A Method for Prayer, page 130. 
 
 @@ S115 | story | gold | church | True story · The church at V.
 H: HIS FIRST CHURCH|OWED HIM EIGHTY DOLLARS.|THE NEXT WEEK A MARRIAGE|FEE MADE THE SUM *EXACT.*
 C: He was pastor of his first church at V., and he worked with his hands. The church owed him eighty dollars. He prayed about the debt. The next week he performed a marriage.
 
-The fee, with what had already been set aside, was exactly eighty dollars. A fifty-dollar bill was part of what made the eighty. This post does not guess at any sum the account does not name.
+The fee, with what had already been set aside, was exactly eighty dollars. A fifty-dollar bill was part of what made the eighty.
 R: W | Exactly Eighty Dollars. 
 
 @@ T050 | question | parchment | church | A question from the old guides
@@ -427,7 +423,7 @@ H: NO EVIL SHALL|BEFALL THEE.
 B: Psalm 91:10
 C: He was riding on top of the Boulder Pass of the Rocky Mountains in the summer of 1876 when a storm of rain, wind, and tempest came up. There was no shelter. He set the hour under the promise, No evil shall befall thee or come nigh thy dwelling.
 
-Portions struck him which, he wrote, if given from an electric battery in a schoolroom as sparks only one-hundredth the size, would have killed him. He lived. The line he claimed is Psalm 91:10. The book quotes the line and does not print the chapter number. This is a preservation, not a cure.
+Portions struck him which, he wrote, if given from an electric battery in a schoolroom as sparks only one-hundredth the size, would have killed him. He lived. The line he claimed is Psalm 91:10. This is a preservation, not a cure.
 R: W | Remarkable Preservation of Life from Lightning in Answer to Prayer. 
 
 @@ S116 | story | gold | church | True story · Recorded 1885
@@ -440,7 +436,7 @@ R: W | Faith In God's Liberality.
 @@ P052 | prayer | gold | church | Matthew Henry
 H: ADD UNTO THY CHURCH|DAILY SUCH AS SHALL|BE SAVED.
 B: Add unto thy church daily such as shall be saved; Enlarge the place of its tent, lengthen its cords, and strengthen its stakes.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 150. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 150.
 R: MH | A Method for Prayer, page 150. 
 
 @@ T051 | question | parchment | church | A question from the old guides
@@ -459,13 +455,13 @@ R: W | A Wonderful Answer to Prayer for the Holy Spirit.
 H: FOR THREE YEARS|SHE DID THEIR WASHING|AND CARED FOR HER FATHER.|THEY OFFERED HER *TWO ROOMS.*
 C: A Christian Swedish girl had done a family's washing for three years. She cared for an aged father. They esteemed her. Going to Europe for six months, they offered her two rooms so she would not have to earn her rent, and so she could look after the house.
 
-The same bank entry runs on into another family's grief. This post keeps only the offer that is clearly hers.
+The same bank entry runs on into another family's grief.
 R: W | The Swedish Girl Blessed. 
 
 @@ P053 | prayer | dusk | city | Matthew Henry
 H: LET THE SORROWFUL|SIGHING OF THY|PRISONERS COME|*BEFORE THEE.*
 B: Let the sorrowful sighing of thy prisoners come before thee, and according to the greatness of thy power preserve thou those that for thy name's sake are appointed to die.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 159. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 159.
 R: MH | A Method for Prayer, page 159. 
 
 @@ S119 | story | dusk | road | True story · Recorded 1885
@@ -497,7 +493,7 @@ R: W | How The Lord Blessed An Old Advertisement.
 @@ P054 | prayer | night | church | Matthew Henry
 H: LORD, PRESERVE TO US|THE LAMP WHICH THOU|HAST ORDAINED FOR|THINE ANOINTED.
 B: Lord, preserve to us the lamp which thou hast ordained for thine anointed, that the generation to come may know thee, even the children which shall be born, that they may set their hope in God, and keep his commandments.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 166. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 166.
 R: MH | A Method for Prayer, page 166. 
 
 @@ S122 | story | gold | city | True story · Near New York
@@ -528,9 +524,9 @@ She asked for a home. The account says a firm, loving household opened to her so
 R: W | A Servant's Prayer For A Good Home. 
 
 @@ P055 | prayer | night | city | Matthew Henry
-H: WE CANNOT SAY,|WITH THY SERVANT DAVID,|THAT WE PREVENTED|THE NIGHT WATCHES.
+H: BUT WE CANNOT SAY|WITH THY SERVANT DAVID,|THAT WHEN WE AWAKE|*WE ARE STILL WITH THEE*
 B: But we cannot say with thy servant David, that when we awake we are still with thee, or that our eyes have prevented the night watches, that we might meditate in thy word; but vain thoughts still lodge within us.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 176. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 176.
 R: MH | A Method for Prayer, page 176. 
 
 @@ T054 | question | parchment | church | A question from the old guides
@@ -542,7 +538,7 @@ R: MH | A Method for Prayer, page 232.
 H: NORMAND SMITH,|A SADDLER OF HARTFORD,|LEFT THIRTY THOUSAND|*IN CHARITY.*
 C: Normand Smith, a saddler of Hartford, Connecticut, after years of an elevated system of benevolence, bequeathed thirty thousand dollars in charity.
 
-The same bank entry then turns to an anonymous man who lost nine hundred dollars and owed eleven hundred. This post keeps only what it says of Smith.
+The same bank entry then turns to an anonymous man who lost nine hundred dollars and owed eleven hundred.
 R: W | Experience Of A Saddler. 
 
 @@ S125 | story | gold | city | True story · The Fresh Air Fund
@@ -555,7 +551,7 @@ R: W | The Astonished Giver.
 @@ P056 | prayer | dusk | cabin | Matthew Henry
 H: LET THE BEAUTY OF|THE LORD OUR GOD|BE UPON US.
 B: Let the beauty of the Lord our God be upon us; prosper thou the work of our hands upon us, yea the work of our hands establish thou it.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 230. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 230.
 R: MH | A Method for Prayer, page 230. 
 
 @@ S126 | story | gold | city | True story · Recorded 1885
@@ -567,32 +563,30 @@ R: W | Relief From A Creditor's Demands.
 
 @@ T055 | question | parchment | church | A question from the old guides
 H: WILL WE RECEIVE|THE ATONEMENT,|AND HEAR *JOY AND GLADNESS?*
-C: Matthew Henry prays that we receive the atonement, know that our sins are forgiven, and hear joy and gladness. A Method for Prayer, page 233. The prayer card on this page uses his prayer. This card uses the same sentence as a question.
+C: Matthew Henry prays that we receive the atonement, know that our sins are forgiven, and hear joy and gladness. A Method for Prayer, page 233.
 R: MH | A Method for Prayer, page 233. 
 
 @@ S127 | story | night | city | From The New Cyclopaedia of Prose Illustrations
 H: HE WORE GREEN SPECTACLES|AND CALLED FOR HOT BRANDY.|THE QUAKER BY THE FIRE|*SAID WHAT HE SAW.*
 C: The Cyclopaedia, under Abstinence, tells of an elderly man in green spectacles who called for hot brandy at an inn. A Quaker sat by the fire. The point of the illustration, as the book gives it, is the Quaker's plain reply to a man who could not see what was in front of him.
 
-The wording of the Quaker's full sentence is uneven in the scanned page. The post keeps the scene the scan does give: the spectacles, the brandy, the fire, and the Quaker.
+The wording of the Quaker's full sentence is uneven in the scanned page.
 R: CY | Abstinence 
 
 @@ S128 | story | dawn | city | From The New Cyclopaedia of Prose Illustrations
 H: BEFORE A GREAT WORK|HE LOOKED AT THE PICTURE|HE CARRIED OF *HIS FATHER.*
 C: The Cyclopaedia tells of Boleshius of Poland, who carried a picture of his father and looked at it before he undertook a great work. The illustration is the son setting his face by the face he carried.
-
-Nothing is added about what the work was. The book does not say.
 R: CY | Boleshius of Poland 
 
 @@ P057 | prayer | dusk | cabin | Matthew Henry
-H: THOUGH THERE SHOULD|BE NO HERD IN THE STALL,|YET LET US REJOICE|*IN THE LORD.*
-B: Though there should be no herd in the stall, yet let us have grace to rejoice in the Lord, and to joy in the God of our salvation.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 231. Nothing has been added. The sentence in the book begins in lowercase; the headline gives the sense in capitals.
+H: YET LET US HAVE GRACE|*TO REJOICE IN THE LORD*
+B: …yet let us have grace to rejoice in the Lord, and to joy in the God of our salvation.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 231.
 R: MH | A Method for Prayer, page 231. 
 
 @@ S129 | story | dawn | cabin | From The New Cyclopaedia of Prose Illustrations
 H: TINY SHELLS, HE SAID,|MAKE THE CHALK HILLS.|SO ACCOUNT FOR *EACH HOUR.*
-C: Spurgeon's illustration, as the Cyclopaedia records it, is that tiny shells make the chalk hills, and that a man should account for each hour and each use of his voice in the same way. The post does not extend the figure past that.
+C: Spurgeon's illustration, as the Cyclopaedia records it, is that tiny shells make the chalk hills, and that a man should account for each hour and each use of his voice in the same way.
 R: CY | Spurgeon on small shells 
 
 @@ T056 | question | parchment | church | A question from the old guides
@@ -602,13 +596,13 @@ R: MH | A Method for Prayer, page 231.
 
 @@ S130 | story | gold | road | From The New Cyclopaedia of Prose Illustrations
 H: THEY RAN FOR A WREATH|THAT WITHERED. THE BOOK|SETS BESIDE IT *A PRIZE THAT DOES NOT.*
-C: The Cyclopaedia, citing Parker, pictures the Olympic runners and the wreath they ran for, a prize that withered. The illustration is set beside a prize that does not. The post names the wreath and the contrast, and does not invent the race.
+C: The Cyclopaedia, citing Parker, pictures the Olympic runners and the wreath they ran for, a prize that withered. The illustration is set beside a prize that does not.
 R: CY | Olympian runners 
 
 @@ P058 | prayer | gold | city | Matthew Henry
-H: FOR HIS SAKE, BLOT OUT|ALL OUR TRANSGRESSIONS,|AND ENTER NOT INTO|*JUDGMENT WITH US.*
+H: FOR HIS SAKE WE PRAY|THEE BLOT OUT ALL|*OUR TRANSGRESSIONS*
 B: For his sake we pray thee blot out all our transgressions, and enter not into judgment with us.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 232. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 232.
 R: MH | A Method for Prayer, page 232. 
 
 @@ T057 | question | parchment | church | A question from the old guides
@@ -618,16 +612,16 @@ R: MH | A Method for Prayer, page 230.
 
 @@ S131 | story | dawn | cabin | From The New Cyclopaedia of Prose Illustrations
 H: THE RICHEST SOIL,|LEFT ALONE, RUNS|TO WEEDS. THE FIGURE|*IS THE UNTENDED HEART.*
-C: The Cyclopaedia uses a garden fact: rich soil, left alone, runs to weeds. The application is the heart left untended. The post keeps the garden and the application, and adds no story of a named gardener.
+C: The Cyclopaedia uses a garden fact: rich soil, left alone, runs to weeds. The application is the heart left untended.
 R: CY | Weeds in rich soil 
 
 @@ S132 | story | gold | city | From The New Cyclopaedia of Prose Illustrations
 H: THE SILVERSMITH SITS|BY THE FURNACE SO|THE SILVER IS NOT|INJURED. HE WATCHES *UNTIL HE SEES HIS WORK.*
-C: The Cyclopaedia, under the figure from Malachi, tells of a silversmith who sits and watches the furnace so the silver is not injured. He does not leave it. The post stays with that watch, and does not add a sentence the scan does not clearly give.
+C: The Cyclopaedia, under the figure from Malachi, tells of a silversmith who sits and watches the furnace so the silver is not injured. He does not leave it.
 R: CY | The silversmith 
 
 @@ P059 | prayer | dawn | road | Matthew Henry
-H: GIVE US TO RECEIVE|THE ATONEMENT, AND|TO KNOW THAT OUR SINS|*ARE FORGIVEN.*
+H: AND GIVE US, WE PRAY|THEE, TO RECEIVE|*THE ATONEMENT*
 B: And give us, we pray thee, to receive the atonement, to know that our sins are forgiven us; speak peace to us, and make us to hear joy and gladness.
-C: This is Matthew Henry's sentence, from A Method for Prayer, page 233. Nothing has been added.
+C: This is Matthew Henry's sentence, from A Method for Prayer, page 233.
 R: MH | A Method for Prayer, page 233.

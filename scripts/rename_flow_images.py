@@ -185,7 +185,10 @@ def copy_matches(content_dir: Path, backgrounds: Path, dry_run: bool) -> int:
         folder = content_dir.parent / "flow" / f"batch{batch.group(1)}" if batch else None
         src = folder / row["flow_file"] if folder else None
         post_id = row["id"].strip()
-        alt = re.search(r"_alt(\d+)", row.get("note") or "")
+        if not post_id:
+            print(f"{row['flow_file']:<46} {'(no id, skipped)':<16} {row.get('verified','')}")
+            continue
+        alt = re.search(r"(?:_|\b)alt(\d+)", row.get("note") or "")
         dest_name = f"{post_id}_alt{alt.group(1)}.jpg" if alt else f"{post_id}.jpg"
         dest = backgrounds / dest_name
         print(f"{row['flow_file']:<46} {dest_name:<16} {row.get('verified','')}")

@@ -20,18 +20,18 @@
       "times": [
         "12:45"
       ]
+    },
+    "posts_batch04.txt": {
+      "start": "2027-04-02",
+      "times": [
+        "12:45"
+      ]
+    },
+    "posts_batch05.txt": {
+      "start": "2027-07-11",
+      "times": [
+        "12:45"
+      ]
     }
-  },
-  "posts_batch04.txt": {
-    "start": "2027-04-02",
-    "times": [
-      "12:45"
-    ]
-  },
-  "posts_batch05.txt": {
-    "start": "2027-07-11",
-    "times": [
-      "12:45"
-    ]
   }
 }

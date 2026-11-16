@@ -11,7 +11,7 @@
             05:45 / 09:30 / 16:45 PT = 8:45am / 12:30pm / 7:45pm Eastern)
 --base-url  where the finished images are hosted; each image URL becomes <base-url>/<id>.jpg
 """
-import os, re, csv, glob, argparse, datetime as dt
+import os, re, csv, glob, argparse, sys, datetime as dt
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SOURCES = {
  'W':  'Source: The Wonders of Prayer (1885), a public-domain collection of answered-prayer accounts{t}. Retold here in modern English.',
@@ -24,6 +24,61 @@ def _credits():
     f = os.path.join(ROOT, 'backgrounds', 'credits.csv')
     return {r['id']: r for r in csv.DictReader(open(f, encoding='utf-8'))} if os.path.exists(f) else {}
 CREDITS = _credits()
+
+# Engagement-bait guard (Nov 16, 2026): Meta demotes posts that ask people to
+# comment, share, tag, vote, or fill in a blank. The build FAILS if a headline,
+# caption, or first comment contains one of these. Each entry is (regex, label);
+# the label is what gets printed, so the offending post can be found fast.
+# Deliberately narrow on three points, to avoid false positives on source text:
+#  - "below" is only bait when paired with a call to act ("comment below",
+#    "tell us below", ...). On its own it is ordinary English in the books
+#    ("gone below", "in this world below", "BELOW CHRISTIANS?").
+#  - "comment" is only bait as a call to act ("leave a comment", "in the
+#    comments", "comment below"). "Without a word of comment" (S025) is not.
+#  - "say ..." is only bait as an instruction to the reader ("say AMEN").
+#    Narration like 'She did not say "if it be possible"' (S026) is not.
+#  - "..." is only bait as a fill-in ("when..."). Henry/Spurgeon quotes use
+#    ellipses legitimately, so a bare "..." is not flagged.
+BAIT_PATTERNS = [
+    (r'\b(leave a comment|in the comments?|comment below|comment your|comment with|comment!)\b', 'comment'),
+    (r'\btag\b', 'tag'),
+    (r'\bshare\b', 'share'),
+    (r'\bdrop a\b', 'drop a'),
+    (r'\bwhich are you\b', 'which are you'),
+    (r'\bfinish the sentence\b', 'finish the sentence'),
+    (r'\bme too\b', 'me too'),
+    (r'\btell us\b', 'tell us'),
+    (r'\btype\s+(amen|yes|me too|["\'])', 'type ...'),
+    (r'\bsay\s+["\'](amen|yes|me too)', 'say "..."'),
+    (r'\b(comment|share|tell us|drop|type|say|leave|post)\b[^.\n]{0,50}\bbelow\b', '... below'),
+    (r'\bin the comments? below\b', 'in the comments below'),
+    (r'\bwhen\.\.\.', 'when... (fill-in-the-blank)'),
+    (r'\bwhat is yours\?', 'what is yours?'),
+    (r'\bwhen did it happen to you\?', 'when did it happen to you?'),
+    (r'\bwho was it for you\?', 'who was it for you?'),
+    (r'\bwhat do you remember\?', 'what do you remember?'),
+    (r'\bhas someone ever shown up for you like that\?', 'has someone ever shown up for you like that?'),
+    (r'\byour answer may be the one they need\b', 'your answer may be the one they need'),
+    (r'\bwhat would you (actually )?say\b', 'what would you say?'),
+]
+_BAIT_RES = [(re.compile(p, re.IGNORECASE), label) for p, label in BAIT_PATTERNS]
+
+def check_bait(posts):
+    """Fail the build if any post's headline, caption, or first comment
+    contains engagement bait. Prints one line per hit: post ID, field,
+    and the matching phrase. Returns the posts unchanged when clean."""
+    hits = []
+    for p in posts:
+        for field in ('headline', 'caption', 'first_comment'):
+            text = re.sub(r'[*|]', ' ', p.get(field) or '')
+            for rx, label in _BAIT_RES:
+                if rx.search(text):
+                    hits.append((p['id'], field, label))
+    if hits:
+        for pid, field, label in hits:
+            print(f'ENGAGEMENT BAIT {pid} [{field}]: matched {label!r}', file=sys.stderr)
+        raise SystemExit(f'build failed: engagement bait in {len(hits)} field(s), see above')
+    return posts
 
 def parse(path):
     posts, cur, field = [], None, None
@@ -100,7 +155,7 @@ def main():
     cols = ['id', 'batch', 'day', 'date', 'time', 'type', 'headline', 'attribution', 'tag', 'scene', 'element', 'caption', 'full_text', 'first_comment', 'alt_text', 'image_file', 'image_url', 'source']
     os.makedirs(os.path.join(ROOT, 'schedule'), exist_ok=True); allrows = []
     for batch, b in sorted(cfg['batches'].items()):
-        posts = parse(os.path.join(ROOT, 'content', batch)); name = os.path.splitext(batch)[0].replace('posts_', '')
+        posts = check_bait(parse(os.path.join(ROOT, 'content', batch))); name = os.path.splitext(batch)[0].replace('posts_', '')
         d0 = dt.date.fromisoformat(b['start']); times = b['times']; rows = []
         days = order(posts) if len(times) == 3 and {p['type'] for p in posts} <= {'story', 'quote', 'prayer', 'question'} else [posts[i:i + len(times)] for i in range(0, len(posts), len(times))]
         for d, slots in enumerate(days):

@@ -1159,99 +1159,91 @@ I have been forgiven much. Help me forgive.
 In Jesus' name, amen.
 R: OR
 
-@@ T001 | question | | | Tell us
-H: What is the *oldest prayer* you are still waiting on?
+@@ T001 | question | | | Still waiting
+H: Some prayers are|*twenty years old* —|and still being prayed.
 C: Some of you have been praying the same prayer for twenty years.
 
 You are not the only one still waiting.
 R: OR
 
 @@ T002 | question | | | Looking back
-H: What prayer did God answer with *a no* that you now thank Him for?
+H: A prayer answered|*with a no* —|thanked for later.
 C: Spurgeon once thanked God for rejecting some of his prayers.
 
-What is yours?
+Some no answers become mercies we thank God for.
 R: OR
 
 @@ T003 | question | | | Remember them
-H: Who *prayed for you* before you ever prayed for yourself?
+H: Someone *prayed for you*|before you ever|prayed for yourself.
 C: A grandmother. A Sunday school teacher. A neighbor you did not appreciate at the time.
 
 Someone was praying for you long before you knew it.
 R: OR
 
-@@ T004 | question | | | Tell the story
-H: When did God answer *at the last minute?*
+@@ T004 | question | | | Last minute
+H: God has answered|*at the last minute* —|more than once.
 C: The old books are full of it: the flour that came the day the barrel was empty, the letter already on the desk.
-
-When did it happen to you?
 R: OR
 
 @@ T005 | question | | | Nothing is too small
-H: What is the *smallest thing* you ever prayed about, and He answered?
+H: No prayer is|*too small* for Him|to answer.
 C: One woman in 1885 prayed about a lost thimble. He answered that too.
 
 Car keys count.
 R: OR
 
 @@ T006 | question | | | One word
-H: Which *hymn* can you not sing without tears?
+H: Some *hymns* cannot|be sung without tears.
 C: Some of them we still cannot get through.
 R: OR
 
 @@ T007 | question | | | Chapter and verse
-H: What *verse* carried you through your hardest year?
-C: Someone reading this is in their hardest year right now. Your answer may be the one they need.
+H: One *verse* can carry|a person through|the hardest year.
+C: Someone reading this is in their hardest year right now.
 R: OR
 
-@@ T008 | question | | | Finish the sentence
-H: I knew God heard me *when...*
+@@ T008 | question | | | The moment
+H: You know *God heard* —|the moment stays|with you.
 C: Most of us can name the moment.
 R: OR
 
 @@ T009 | question | | | Give them credit
-H: Who taught you *how to pray?*
+H: Someone first|*taught us how to pray.*
 C: Matthew Henry learned at his father's table. Spurgeon never forgot hearing his mother pray for him by name.
-
-Who was it for you?
 R: OR
 
 @@ T010 | question | | | Your best advice
-H: What would you say to someone who has *stopped praying?*
-C: Not a lecture. What would you actually say to them across a kitchen table?
+H: Someone who has|*stopped praying* needs|one honest sentence,|not a lecture.
+C: Not a lecture. One honest sentence across a kitchen table.
 
 They may be reading this.
 R: OR
 
 @@ T011 | question | | | Be honest
-H: Morning or night: *when do you pray best?*
+H: Some pray best|*in the morning.*|Some at midnight.
 C: "The first hour of the morning is the rudder of the day," said Beecher. Some of us do better at midnight.
 
 He hears both.
 R: OR
 
 @@ T012 | question | | | Passed down
-H: What did your *grandmother* pray that you still remember?
+H: A grandmother's prayers|*are still remembered* —|sixty years on.
 C: Some of us are still living on prayers that were prayed over us sixty years ago.
-
-What do you remember?
 R: OR
 
 @@ T013 | question | | | It happens
-H: Has a stranger ever been *God's answer* to your need?
+H: A stranger has been|*God's answer*|more than once.
 C: A schoolmaster once bought a widow a pair of shoes without knowing she had prayed for them that morning.
-
-Has someone ever shown up for you like that?
 R: OR
 
 @@ T014 | question | | | Count them
-H: What do you have today that you once *begged God for?*
+H: Much of what we have today|*was once begged for*|in prayer.
 C: The house. The child. The sobriety. The job. The peace.
 
 It is easy to forget we prayed for what we now take for granted.
 R: OR
 
 @@ T015 | question | | | One name
-H: *One name.* Who should we pray for tonight?
+H: *One name.*|Bring it to Him|tonight.
 C: Bring that one name to Him tonight. No explanation needed.
 R: OR

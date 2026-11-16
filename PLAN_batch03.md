@@ -142,3 +142,7 @@ These posts stop where the bank entry runs into the next heading, or where a phr
 - Isaiah 65:24 also appears on VW01 with a different story (Spurgeon's college mail). VW07 is a different incident.
 - No story used in posts_master.csv, the extras drafts (The Horse Is His; Muller's breakfast), or the earlier photo sets was assigned again.
 - Medical-cure and healing accounts were left out, including consumption, recovery from illness, and Bishop Simpson.
+
+## Flow prompt variety
+
+Every row in `content/flow_prompts_batch03.csv` needs its own main subject and composition. Folded hands, a Bible, or a praying figure may be the main subject in at most three rows in a set. No two rows may share the same foreground object. Vary the setting, the time of day, the light, the shot (wide landscape, mid shot, or close-up still life), and who is present: men, women, children, a group, or no one. Story prompts take a concrete object from that story's source text. Spurgeon and verse prompts take a scene from that prayer's or verse's theme (light, water, a road, bread, a storm, a lamp, and so on), not hands on a Bible. Keep the shared ending on every prompt: 3:4 vertical, period-accurate, no text or lettering, subject in the upper two-thirds, simple dark bottom third.

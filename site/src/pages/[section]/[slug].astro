@@ -16,8 +16,8 @@ const shareUrl = new URL(e.url, Astro.site).href;
     <h1>{e.title}</h1>
     {e.attribution && e.type !== 'prayer' && <p class="by">{e.attribution}</p>}
     {e.images.length > 0 && (
-      <div class:list={['imgs', { multi: e.images.length > 1 }]}>
-        {e.images.map((src, k) => <img src={src} alt={e.alt.split(' || ')[k] || e.alt} width="1080" height="1350" loading={k ? 'lazy' : 'eager'} />)}
+      <div class:list={['imgs', { multi: e.images.length > 1, crop: e.type === 'carousel' }]}>
+        {e.images.map((src, k) => <span class="frame"><img src={src} alt={e.alt.split(' || ')[k] || e.alt} width="1080" height="1350" loading={k ? 'lazy' : 'eager'} /></span>)}
       </div>
     )}
     {e.quoteOld && <blockquote>“{e.quoteOld}”</blockquote>}
@@ -32,8 +32,8 @@ const shareUrl = new URL(e.url, Astro.site).href;
       <a href={`mailto:?subject=${encodeURIComponent(e.title)}&body=${encodeURIComponent(shareUrl)}`}>Email</a>
     </p>
     <nav class="pn">
-      {prev ? <a href={prev.url}>← {prev.title}</a> : <span />}
-      {next ? <a href={next.url}>{next.title} →</a> : <span />}
+      {prev ? <a href={prev.url}><span class="dir">← Previous</span><span class="pt">{prev.title}</span></a> : <span />}
+      {next ? <a class="nxt" href={next.url}><span class="dir">Next →</span><span class="pt">{next.title}</span></a> : <span />}
     </nav>
   </article>
   {more.length > 0 && <section class="wrap more"><h2>More {SECTIONS[e.section].name.toLowerCase()}</h2><div class="grid">{more.map((x) => <Card e={x} />)}</div></section>}
@@ -44,9 +44,12 @@ const shareUrl = new URL(e.url, Astro.site).href;
   h1 { font-size: clamp(1.8rem, 5vw, 2.5rem); margin: .4rem 0 .6rem; }
   .by { font: 600 .95rem 'Poppins', sans-serif; color: var(--muted); margin-top: 0; }
   .imgs { margin: 1.6rem 0; }
-  .imgs img { border-radius: 12px; width: 100%; box-shadow: 0 12px 40px -18px #0006; }
+  .imgs .frame { display: block; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 40px -18px #0006; }
+  .imgs img { width: 100%; height: auto; }
+  .imgs.crop .frame { aspect-ratio: 4 / 5; }
+  .imgs.crop img { height: 113.64%; max-width: none; object-fit: cover; object-position: center top; }
   .imgs.multi { display: flex; gap: .8rem; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: .5rem; }
-  .imgs.multi img { flex: 0 0 85%; scroll-snap-align: start; }
+  .imgs.multi .frame { flex: 0 0 85%; scroll-snap-align: start; }
   blockquote { font-style: italic; font-size: 1.25rem; border-left: 4px solid var(--gold); margin: 1.5rem 0; padding: .2rem 0 .2rem 1.2rem; }
   .list { padding-left: 1.4rem; } .list li { margin: .5rem 0; }
   .witness { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.2rem; font-style: italic; }
@@ -56,7 +59,11 @@ const shareUrl = new URL(e.url, Astro.site).href;
   .share { display: flex; gap: 1rem; align-items: center; font: 600 .9rem 'Poppins', sans-serif; margin: 1.6rem 0; }
   .share span { color: var(--muted); font-weight: 500; }
   .share a { color: var(--gold-dk); }
-  .pn { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid var(--line); padding-top: 1.2rem; font: 600 .9rem/1.4 'Poppins', sans-serif; }
-  .pn a { text-decoration: none; max-width: 48%; } .pn a:last-child { text-align: right; }
+  .pn { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; border-top: 1px solid var(--line); padding-top: 1.2rem; font-family: 'Poppins', system-ui, sans-serif; }
+  .pn a { display: flex; flex-direction: column; gap: .3rem; text-decoration: none; min-width: 0; }
+  .pn .nxt .dir { text-align: right; }
+  .pn .dir { font-size: .72rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+  .pn .pt { font-weight: 600; font-size: .95rem; line-height: 1.35; }
+  @media (max-width: 520px) { .pn { grid-template-columns: 1fr; } .pn .nxt { text-align: left; } }
   .more { margin-top: 3.5rem; } .more h2 { font-size: 1.4rem; }
 </style>

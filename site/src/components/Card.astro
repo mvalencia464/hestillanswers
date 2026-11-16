@@ -5,14 +5,17 @@ const { e } = Astro.props;
 ---
 <a class="card" href={e.url}>
   {e.images[0]
-    ? <img src={e.images[0]} alt={e.alt.split(' || ')[0]} width="1080" height="1350" loading="lazy" decoding="async" />
+    ? <span class:list={['thumb', { crop: e.type === 'carousel' }]}><img src={e.images[0]} alt={e.alt.split(' || ')[0]} width="1080" height="1350" loading="lazy" decoding="async" /></span>
     : <div class="ph"><span>{e.title}</span></div>}
   <span class="t">{e.title}</span>
 </a>
 <style>
   .card { display: flex; flex-direction: column; gap: .55rem; text-decoration: none; }
-  .card img, .ph { border-radius: 10px; aspect-ratio: 4 / 5; object-fit: cover; background: var(--ink); box-shadow: 0 1px 2px #0002, 0 8px 24px -12px #0004; transition: transform .2s; }
-  .card:hover img { transform: translateY(-3px); }
+  .thumb, .ph { border-radius: 10px; aspect-ratio: 4 / 5; overflow: hidden; background: var(--ink); box-shadow: 0 1px 2px #0002, 0 8px 24px -12px #0004; transition: transform .2s; }
+  .thumb img { width: 100%; height: 100%; max-width: none; object-fit: cover; object-position: center top; }
+  /* Cover slides have a baked-in Facebook "SWIPE" label and dots in the bottom ~12%. */
+  .thumb.crop img { height: 113.64%; }
+  .card:hover .thumb, .card:hover .ph { transform: translateY(-3px); }
   .ph { display: flex; align-items: center; justify-content: center; padding: 1.2rem; color: var(--parch); font: italic 500 1.05rem/1.4 'Lora', serif; text-align: center; }
   .t { font: 600 .95rem/1.35 'Poppins', sans-serif; color: var(--ink); }
 </style>

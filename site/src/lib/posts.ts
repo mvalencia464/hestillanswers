@@ -56,13 +56,21 @@ function sentenceCase(head: string, caption: string): string {
     if (!isCap) seen.set(key, 'low'); else if (!seen.has(key)) seen.set(key, 'cap');
   }
   let first = true;
-  return head.toLowerCase().replace(/[a-z][a-z’']*/g, (w) => {
+  const titled = head.toLowerCase().replace(/[a-z][a-z’']*/g, (w) => {
     const key = w.replace(/['’]s$/, '');
     let out = w;
     if (first || w === 'i' || /^i['’]/.test(w) || seen.get(key) === 'cap') out = w[0].toUpperCase() + w.slice(1);
     first = false; return out;
   }).replace(/([.!?:]["”]?\s+["“]?)([a-z])/g, (_, a, b) => a + b.toUpperCase()).replace(/(["“])([a-z])/g, (_, a, b) => a + b.toUpperCase());
+  return titled
+    .replace(/\b(dr|mr|mrs|ms|rev|st|prof|gen|col|capt|sgt|lt|hon)\./gi, (m) => m[0].toUpperCase() + m.slice(1).toLowerCase())
+    .replace(/\b((?:Dr|Mr|Mrs|Ms|Rev|St|Prof|Gen|Col|Capt|Sgt|Lt|Hon)\.)\s+([a-z])/g, (_, a, b) => `${a} ${b.toUpperCase()}`);
 }
+
+// Rare cases the caption-aware caser still gets wrong. Caption text is left untouched.
+const TITLE_OVERRIDES: Record<string, string> = {
+  S017: 'He steered for an empty island against all reason. Sixteen men were waiting.',
+};
 
 // Lines that only make sense on Facebook ("swipe", "leave a name below"). Story text is never matched.
 export const FB_ONLY = /(swipe through|leave a first name below|say their name here|just say "me too|before you scroll on|car keys count|tell us how long, and we will stand|say their name\. It is good)/i;
@@ -94,7 +102,8 @@ export function getEntries(): Entry[] {
     if (r.type === 'verse') slides = parts.slice(1).map(clean);
     if (r.type === 'text') title = 'A prayer of C. H. Spurgeon';
     const body = paragraphs(r.caption);
-    const t = sentenceCase(title, r.caption + ' ' + r.attribution + ' and God, Lord, Jesus, Christ, Jehovah').replace(/[,;:]\s*$/, '');
+    let t = sentenceCase(title, r.caption + ' ' + r.attribution + ' and God, Lord, Jesus, Christ, Jehovah').replace(/[,;:]\s*$/, '');
+    if (TITLE_OVERRIDES[r.id]) t = TITLE_OVERRIDES[r.id];
     const readable = r.type === 'text' ? `${t}: ${(body[1] || body[0] || '').replace(/^["“]/, '').slice(0, 40).replace(/\s\S*$/, '')}…` : t;
     const slug = `${r.id.toLowerCase()}-${slugify(r.type === 'text' ? readable : t)}`;
     const desc = (body.join(' ') || t).replace(/\s+/g, ' ');

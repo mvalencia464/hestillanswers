@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import { bySection, SECTIONS, type Section } from '../../lib/posts';
+export function getStaticPaths() { return (Object.keys(SECTIONS) as Section[]).map((section) => ({ params: { section } })); }
+const section = Astro.params.section as Section;
+const items = bySection(section);
+---
+<Base title={SECTIONS[section].name} description={SECTIONS[section].blurb}>
+  <div class="wrap">
+    <header class="sh"><p class="kicker">He Still Answers</p><h1>{SECTIONS[section].name}</h1><p>{SECTIONS[section].blurb}</p></header>
+    <div class="grid">{items.map((e) => <Card e={e} />)}</div>
+  </div>
+</Base>
+<style>
+  .sh { padding: 2.8rem 0 1.8rem; max-width: 640px; }
+  .sh h1 { font-size: clamp(2rem, 6vw, 3rem); margin: .2rem 0 .4rem; }
+  .sh p:last-child { color: var(--muted); margin: 0; }
+</style>

@@ -1,0 +1,62 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import { getEntries, bySection, SECTIONS, type Entry } from '../../lib/posts';
+export function getStaticPaths() { return getEntries().map((e) => ({ params: { section: e.section, slug: e.slug }, props: { e } })); }
+const { e } = Astro.props as { e: Entry };
+const sib = bySection(e.section); const i = sib.findIndex((x) => x.id === e.id);
+const prev = sib[i - 1]; const next = sib[i + 1];
+const more = sib.filter((x) => x.id !== e.id && x.images.length).slice(Math.max(0, i - 1), Math.max(0, i - 1) + 4);
+const isPrayerLike = ['prayer', 'text'].includes(e.type);
+const shareUrl = new URL(e.url, Astro.site).href;
+---
+<Base title={e.title} description={e.description} image={e.images[0]}>
+  <article class="narrow">
+    <p class="kicker"><a href={`/${e.section}/`}>{SECTIONS[e.section].name}</a>{e.tag && <> · {e.tag}</>}</p>
+    <h1>{e.title}</h1>
+    {e.attribution && e.type !== 'prayer' && <p class="by">{e.attribution}</p>}
+    {e.images.length > 0 && (
+      <div class:list={['imgs', { multi: e.images.length > 1 }]}>
+        {e.images.map((src, k) => <img src={src} alt={e.alt.split(' || ')[k] || e.alt} width="1080" height="1350" loading={k ? 'lazy' : 'eager'} />)}
+      </div>
+    )}
+    {e.quoteOld && <blockquote>“{e.quoteOld}”</blockquote>}
+    {e.type === 'list' && <ol class="list">{e.slides.filter((s) => !s.startsWith('>>') && !/^[A-Z ,.'!?;:"]+$/.test(s)).map((s) => <li>{s}</li>)}</ol>}
+    {e.type === 'verse' && e.slides[0] && <p class="witness">{e.slides[0]}</p>}
+    <div class:list={['body', { prayer: isPrayerLike }]}>
+      {e.body.map((p) => <p>{p.split('\n').map((l, k) => <>{k > 0 && <br />}{l}</>)}</p>)}
+    </div>
+    {e.source && <p class="src">{e.source}</p>}
+    <p class="share"><span>Share this:</span>
+      <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener">Facebook</a>
+      <a href={`mailto:?subject=${encodeURIComponent(e.title)}&body=${encodeURIComponent(shareUrl)}`}>Email</a>
+    </p>
+    <nav class="pn">
+      {prev ? <a href={prev.url}>← {prev.title}</a> : <span />}
+      {next ? <a href={next.url}>{next.title} →</a> : <span />}
+    </nav>
+  </article>
+  {more.length > 0 && <section class="wrap more"><h2>More {SECTIONS[e.section].name.toLowerCase()}</h2><div class="grid">{more.map((x) => <Card e={x} />)}</div></section>}
+</Base>
+<style>
+  article { padding-top: 2.6rem; }
+  .kicker a { text-decoration: none; }
+  h1 { font-size: clamp(1.8rem, 5vw, 2.5rem); margin: .4rem 0 .6rem; }
+  .by { font: 600 .95rem 'Poppins', sans-serif; color: var(--muted); margin-top: 0; }
+  .imgs { margin: 1.6rem 0; }
+  .imgs img { border-radius: 12px; width: 100%; box-shadow: 0 12px 40px -18px #0006; }
+  .imgs.multi { display: flex; gap: .8rem; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: .5rem; }
+  .imgs.multi img { flex: 0 0 85%; scroll-snap-align: start; }
+  blockquote { font-style: italic; font-size: 1.25rem; border-left: 4px solid var(--gold); margin: 1.5rem 0; padding: .2rem 0 .2rem 1.2rem; }
+  .list { padding-left: 1.4rem; } .list li { margin: .5rem 0; }
+  .witness { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 1rem 1.2rem; font-style: italic; }
+  .body p { margin: 0 0 1.15em; }
+  .body.prayer p { font-style: italic; }
+  .src { font-size: .9rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 1rem; margin-top: 2rem; }
+  .share { display: flex; gap: 1rem; align-items: center; font: 600 .9rem 'Poppins', sans-serif; margin: 1.6rem 0; }
+  .share span { color: var(--muted); font-weight: 500; }
+  .share a { color: var(--gold-dk); }
+  .pn { display: flex; justify-content: space-between; gap: 1rem; border-top: 1px solid var(--line); padding-top: 1.2rem; font: 600 .9rem/1.4 'Poppins', sans-serif; }
+  .pn a { text-decoration: none; max-width: 48%; } .pn a:last-child { text-align: right; }
+  .more { margin-top: 3.5rem; } .more h2 { font-size: 1.4rem; }
+</style>

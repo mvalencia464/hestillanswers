@@ -1,0 +1,29 @@
+---
+interface Props { compact?: boolean }
+const { compact = false } = Astro.props;
+---
+<div class:list={['signup', { compact }]}>
+  {!compact && <p class="kicker">Free ebook</p>}
+  {!compact && <h2>30 True Stories of Answered Prayer</h2>}
+  {!compact && <p class="lede">Get the free ebook, then a short letter each week with new stories and old prayers. Unsubscribe anytime.</p>}
+  <form method="post" action="/api/subscribe">
+    <input type="hidden" name="page" value={Astro.url.pathname} />
+    <div class="hp" aria-hidden="true"><label>Company <input name="company" tabindex="-1" autocomplete="off" /></label></div>
+    <label class="sr" for="fn">First name</label>
+    <input id="fn" name="first_name" type="text" placeholder="First name" autocomplete="given-name" />
+    <label class="sr" for="em">Email</label>
+    <input id="em" name="email" type="email" placeholder="Email address" required autocomplete="email" />
+    <button class="btn" type="submit">Send me the ebook</button>
+  </form>
+</div>
+<style>
+  .signup { max-width: 640px; margin: 0 auto; text-align: center; }
+  .signup h2 { font-size: clamp(1.6rem, 4vw, 2.2rem); margin: .3rem 0 .6rem; color: #fff; }
+  .signup .kicker { color: var(--gold); }
+  .lede { color: #d8d1c3; margin: 0 auto 1.4rem; max-width: 520px; }
+  form { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; }
+  input[type=text], input[type=email] { flex: 1 1 180px; min-width: 0; padding: .8rem 1rem; border-radius: 999px; border: 1px solid #3a3f4b; background: #fff; font: 500 1rem 'Poppins', sans-serif; color: var(--ink); }
+  .hp { position: absolute; left: -9999px; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .compact form { justify-content: flex-start; }
+</style>

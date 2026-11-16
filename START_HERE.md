@@ -78,6 +78,12 @@ Upload everything inside `output/` into a `hestillanswers/` folder in the bucket
 keeping the file names. Test one link in a browser before uploading the CSVs.
 Settings are saved in `content/schedule.json`; `python3 engine/build_csv.py` rebuilds every CSV from it.
 
+## Website and free ebook
+
+`site/` is the He Still Answers website (Astro), built from `content/posts_master.csv`: one page per story, prayer,
+quote, verse and question, plus an email signup that sends readers the free ebook
+*30 True Stories of Answered Prayer* (`engine/build_ebook.py`). See `site/README.md` to run, deploy and connect HighLevel.
+
 ## Rules that protect monetization
 
 - Never post "type Amen", "share if you agree", or "tag someone". Meta treats it as engagement bait.

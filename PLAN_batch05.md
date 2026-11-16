@@ -125,3 +125,14 @@ Sources: remaining Wonders of Prayer incidents that read as a single event, then
 ## What remains
 
 After this batch, roughly 47 Wonders titles of 120 words or more still look unused and do not open on a healing. Many are long, glued to the next heading, or partly medical. Clean Cyclopaedia anecdotes are fewer than the raw entry count, because most scans break words. A later batch can still be filled, but it will lean harder on the Cyclopaedia and on short Wonders pieces, and it will need the same cut-at-the-heading rule.
+
+## Flow image names
+
+Google Flow saves a file from the start of the prompt plus a hash. It does not use the post id. Each row in `content/flow_prompts_batch03.csv`, `batch04.csv`, and `batch05.csv` has a `flow_key`, and the prompt begins with that phrase and a period.
+
+1. Paste `flow_prompt` into Flow.
+2. Download the images into any folder.
+3. Run `python3 scripts/rename_flow_images.py <folder>`. Add `--dry-run` to print the table without renaming.
+4. Upload the `<id>.jpg` files flat to the R2 bucket path `hestillanswers/`.
+
+The script reads every `content/flow_prompts_batch*.csv`. It matches the filename to `flow_key`, allowing a truncated prefix and a fuzzy fallback. A png or webp is also written as `<id>.jpg`. The original is left in place. Nothing is deleted. If several files match one id, the newest becomes `<id>.jpg` and the others become `<id>_alt1.jpg` and so on.

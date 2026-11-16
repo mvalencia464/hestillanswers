@@ -26,10 +26,11 @@ Asked what she prayed for, she said she wanted only the things they really neede
 R: W | Praying for Tea. 
 
 @@ T037 | question | parchment | church | A question from the old guides
-H: WILL WE STIR|OURSELVES UP|TO TAKE HOLD|*ON GOD?*
-C: Matthew Henry writes, Let us stir up ourselves to take hold on God. A Method for Prayer, page 32.
-R: MH | A Method for Prayer, page 32. 
+H: ART THOU NOT FROM EVERLASTING, *O LORD OUR GOD, OUR HOLY ONE?*
+C: Matthew Henry, A Method for Prayer (1710), page 36:
 
+"Art thou not from everlasting, O Lord our God, our Holy One?"
+R: MH | A Method for Prayer (1710), page 36
 @@ S085 | story | storm | church | True story · Virginia
 H: HE ASKED THAT THE|PREACHING GO ON.|THE CLOUD SPLIT|*AND PASSED ON EITHER SIDE.*
 C: Dr. W. W. Bennet, in Memorials of Methodism in Virginia, wrote of John Easter, a pioneer preacher. At Merritt's meeting-house in Brunswick the crowd was so large the service was outdoors. A storm came up. Easter prayed that the preaching might go on, and that rain would come afterward for the fields.
@@ -58,10 +59,11 @@ He was then struck down and left alone. The two Christians he would have ruined 
 R: W | The Persecutor's Fate. 
 
 @@ T038 | question | parchment | church | A question from the old guides
-H: DO OUR SOULS|WAIT UPON GOD,|FROM WHOM COMES|*OUR EXPECTATION?*
-C: Matthew Henry writes, Truly our souls wait upon God, from whom comes our expectation. A Method for Prayer, page 50.
-R: MH | A Method for Prayer, page 50. 
+H: BUT WILL GOD IN VERY DEED *DWELL WITH MAN UPON THE EARTH?*
+C: Matthew Henry, A Method for Prayer (1710), page 48:
 
+"But will God in very deed dwell with man upon the earth? that God whom the heaven of heavens cannot contain, with man that is a worm, and the son of man that is a worm." 2 Chronicles 6:18. Job 25:6.
+R: MH | A Method for Prayer (1710), page 48
 @@ VW11 | verse | gold | cabin | True story · Recorded 1885
 H: CASTING ALL YOUR CARE|UPON HIM.
 B: 1 Peter 5:7
@@ -84,10 +86,11 @@ C: These are Spurgeon's words, from Prayer 25, The Washing of Water By The Word.
 R: SP | Prayer 25. The Washing of Water By The Word. 
 
 @@ T039 | question | parchment | church | A question from the old guides
-H: BY ONE MAN|SIN ENTERED.|WHAT HAVE WE|DONE *WITH THAT FACT?*
-C: Matthew Henry writes, By one man sin entered into the world, and death by sin. The question is whether we will face the fact he names. A Method for Prayer, page 62.
-R: MH | A Method for Prayer, page 62. 
+H: WHO CAN BRING A CLEAN THING *OUT OF AN UNCLEAN?*
+C: Matthew Henry, A Method for Prayer (1710), page 62:
 
+"For who can bring a clean thing out of an unclean?"
+R: MH | A Method for Prayer (1710), page 62
 @@ S089 | story | gold | city | True story · Brooklyn
 H: THE EDITOR PULLED OUT|EVERY BILL IN HIS POCKET.|IT WAS *FOUR DOLLARS.*
 C: A home missionary from Brooklyn called on an editor for tracts. The editor listened to his visits among the poor. Toward the last he pulled out all the bills in his pocket, four dollars, and said there was something which might come useful.
@@ -116,10 +119,11 @@ A friend's letter spoke of a dress she needed. She gave up the dress and put the
 R: W | Giving Her Last Money To The Lord. 
 
 @@ T040 | question | parchment | church | A question from the old guides
-H: IN THE MULTITUDE|OF OUR WORDS,|IS THERE NOT *SIN?*
-C: Matthew Henry writes, In the multitude of our words there wanteth not sin. A Method for Prayer, page 71.
-R: MH | A Method for Prayer, page 71. 
+H: AND WHO IS THE LORD, *THAT WE SHOULD OBEY HIS VOICE?*
+C: Matthew Henry, A Method for Prayer (1710), page 73:
 
+"By every wilful sin we have in effect said, We will not have this man to reign over us; And who is the Lord, that we should obey his voice?"
+R: MH | A Method for Prayer (1710), page 73
 @@ S092 | story | dawn | cabin | True story · A manual-labor school
 H: HE HAD NO MONEY|FOR THE WINTER BOARD|OF A DOLLAR A WEEK.|A MAN ON A HORSE *OFFERED A SCHOOL.*
 C: He was a student at a manual-labor institute in the West, six hundred miles from friends who could not send funds. February was vacation. He could keep his room and board for a dollar a week, and he had no money, no books for the new term, and no work he knew of.
@@ -146,10 +150,11 @@ By starlight a five-pound note was put in his hand, with the words that he loved
 R: W | He Gave All The Money He Had. 
 
 @@ T041 | question | parchment | church | A question from the old guides
-H: HAS THE GOODNESS|OF GOD LED US|*TO REPENTANCE?*
-C: Matthew Henry writes of the goodness of God that might lead us to repentance. A Method for Prayer, page 80.
-R: MH | A Method for Prayer, page 80. 
+H: WE HAVE SINNED, *WHAT SHALL WE DO UNTO THEE,* O THOU PRESERVER OF MEN?
+C: Matthew Henry, A Method for Prayer (1710), page 78:
 
+"We have sinned, what shall we do unto thee, O thou preserver of men?" Ezra 9:10. Job 7:20.
+R: MH | A Method for Prayer (1710), page 78
 @@ VW12 | verse | dawn | cabin | True story · Recorded 1885
 H: TRUST IN THE LORD,|AND DO GOOD.
 B: Psalm 37:3
@@ -172,10 +177,11 @@ C: This is Matthew Henry's sentence, from A Method for Prayer, page 41.
 R: MH | A Method for Prayer, page 41. 
 
 @@ T042 | question | parchment | church | A question from the old guides
-H: FROM THE FULLNESS|THAT IS IN CHRIST,|HAVE WE RECEIVED|*GRACE FOR GRACE?*
-C: Matthew Henry writes, From the fullness that is in Jesus Christ we receive grace for grace. A Method for Prayer, page 98.
-R: MH | A Method for Prayer, page 98. 
+H: THERE IS NOT ANY NUMBER OF THINE ARMIES, AND *UPON WHOM DOTH NOT THY LIGHT ARISE?*
+C: Matthew Henry, A Method for Prayer (1710), page 59:
 
+"Dominion and fear are with thee, thou makest peace in thy high places: There is not any number of thine armies, and upon whom doth not thy light arise?"
+R: MH | A Method for Prayer (1710), page 59
 @@ S096 | story | dawn | cabin | True story · A home missionary
 H: HE OWED NINETY DOLLARS|AND THE DEMAND CAME.|WITHIN MINUTES HE HAD|*FIFTY AND THEN FORTY.*
 C: A home missionary owed $90. He had resolved that no one he owed would ask and go unpaid, and he could not see how. He took the debt to the Lord. The demand came.
@@ -204,10 +210,11 @@ The next day the teacher scolded him for getting up and leaving the crowded room
 R: W | The Little Boy who Wanted His Sister to Read the Bible. 
 
 @@ T043 | question | parchment | church | A question from the old guides
-H: HAS PATIENCE|HAD ITS *PERFECT WORK?*
-C: Matthew Henry writes that patience should have its perfect work. A Method for Prayer, page 107.
-R: MH | A Method for Prayer, page 107. 
+H: BEHOLD WE ARE VILE, *WHAT SHALL WE ANSWER THEE?*
+C: Matthew Henry, A Method for Prayer (1710), page 59:
 
+"Behold we are vile, what shall we answer thee?"
+R: MH | A Method for Prayer (1710), page 59
 @@ S099 | story | dawn | cabin | True story · Recorded 1885
 H: FOR MONTHS SHE COULD|NOT EARN A DOLLAR.|ONE MORNING A STRANGER'S|LETTER HELD *TWENTY-FIVE.*
 C: She had a present of twenty-five dollars that she said was a direct answer. For months she was entirely out of money and could not earn a dollar. People who might have helped did not. She would not borrow what she might never return.
@@ -236,10 +243,11 @@ Spread out to dry, the grain was full of small pieces of glass. Ground into flou
 R: W | God Saved A Family Mercifully. 
 
 @@ T044 | question | parchment | church | A question from the old guides
-H: WILL WE PLEAD|THE PROMISES,|OR ONLY *REPEAT THEM?*
-C: Matthew Henry writes of pleading the promises. A Method for Prayer, page 116.
-R: MH | A Method for Prayer, page 116. 
+H: WHAT SHALL WE SAY AFTER THIS, *FOR WE HAVE FORSAKEN THY COMMANDMENTS?*
+C: Matthew Henry, A Method for Prayer (1710), page 78:
 
+"And now, O our God, what shall we say after this, for we have forsaken thy commandments?"
+R: MH | A Method for Prayer (1710), page 78
 @@ VW13 | verse | dusk | church | True story · Recorded 1885
 H: LORD, NOW LETTEST|THOU THY SERVANT|DEPART IN PEACE.
 B: Luke 2:29
@@ -262,10 +270,11 @@ C: This is Matthew Henry's sentence, from A Method for Prayer, page 68.
 R: MH | A Method for Prayer, page 68. 
 
 @@ T045 | question | parchment | church | A question from the old guides
-H: DO WE REMEMBER|THAT THERE ARE|MINISTERING SPIRITS|*SENT FOR OUR GOOD?*
-C: Matthew Henry writes of ministering spirits. A Method for Prayer, page 126.
-R: MH | A Method for Prayer, page 126. 
+H: WHO IN THE HEAVEN *CAN BE COMPARED UNTO THE LORD?*
+C: Matthew Henry, A Method for Prayer (1710), page 35:
 
+"Who in the heaven can be compared unto the Lord?"
+R: MH | A Method for Prayer (1710), page 35
 @@ S103 | story | gold | road | True story · Fulton Street
 H: TWO LITTLE JEWESSES|ON THE TRAIN SAID|THEY LOVED JESUS.|THEIR FATHER HAD BEEN|*ELEVEN YEARS AWAY.*
 C: A converted Jew at the Fulton Street prayer meeting told of a train ride. Two little Jewesses said they loved Jesus, and they asked if he did. Their mother had gone to gospel meetings for Jews. Their father had not been to church for eleven years.
@@ -294,10 +303,11 @@ She walked on, wondering how she would get home. Her parasol struck the sidewalk
 R: W | From Wealth, To Poverty. 
 
 @@ T046 | question | parchment | church | A question from the old guides
-H: HE WAS DEAD,|AND IS ALIVE.|DO WE TREAT HIM|*AS THE ONE WHO HOLDS THE KEYS?*
-C: Matthew Henry writes that though he was dead, yet he is alive, and that he holds the keys of hell and of death. A Method for Prayer, page 135.
-R: MH | A Method for Prayer, page 135. 
+H: WHO AMONG THE SONS OF THE MIGHTY *CAN BE LIKENED UNTO THE LORD?*
+C: Matthew Henry, A Method for Prayer (1710), page 35:
 
+"who among the sons of the mighty can be likened unto the Lord?"
+R: MH | A Method for Prayer (1710), page 35
 @@ S106 | story | gold | city | True story · Recorded 1885
 H: FIVE WEEKS IN ANOTHER|STATE AND NOT A DOLLAR|FROM THE CLAIM. THEN|A REWARD OF *SEVENTY-FIVE.*
 C: He had a claim in another state and borrowed the fare to go. After five weeks the suit was put off until fall, and he had not received a dollar. He was a stranger, with little money, and he asked for help.
@@ -326,10 +336,11 @@ The book sets this beside the promise that the wealth of the sinner is laid up f
 R: W | A Refractory Man Compelled to Pay a Debt. 
 
 @@ T047 | question | parchment | church | A question from the old guides
-H: HAS GOD TURNED|AWAY OUR PRAYER,|*OR HAVE WE?*
-C: Matthew Henry writes, Blessed be God, who hath not turned away our prayer. A Method for Prayer, page 144.
-R: MH | A Method for Prayer, page 144. 
+H: WE HAVE NOT PRAYED AS WE OUGHT; *WHO IS THERE THAT DOTH GOOD, AND SINS NOT?*
+C: Matthew Henry, A Method for Prayer (1710), page 211:
 
+"Lord, we have not prayed as we ought; who is there that doth good, and sins not?"
+R: MH | A Method for Prayer (1710), page 211
 @@ VW14 | verse | gold | city | True story · Spring 1877
 H: YE CANNOT PROSPER,|BECAUSE YE HAVE|FORSAKEN THE LORD.
 B: As quoted in Wonders of Prayer
@@ -350,10 +361,11 @@ C: This is Matthew Henry's sentence, from A Method for Prayer, page 95.
 R: MH | A Method for Prayer, page 95. 
 
 @@ T048 | question | parchment | church | A question from the old guides
-H: WE HAVE NOT|BEEN FORSAKEN.|WHAT WILL WE DO|*IN A LAND FULL OF SIN?*
-C: Matthew Henry writes that we have not been forsaken, in a land full of sin. A Method for Prayer, page 162.
-R: MH | A Method for Prayer, page 162. 
+H: *IS THERE NO BALM IN GILEAD?*
+C: Matthew Henry, A Method for Prayer (1710), page 164:
 
+"Is there no balm in Gilead? Is there no physician there? Why then is not the health of the daughter of our people recovered?"
+R: MH | A Method for Prayer (1710), page 164
 @@ S110 | story | gold | city | True story · Augusta, Georgia
 H: THE MOTHER WROTE|FOR PRAYER IN AUGUSTA.|THAT HOUR, IN NEW YORK,|HER DAUGHTER *RESOLVED TO FOLLOW CHRIST.*
 C: At the fifty-first daily prayer meeting in Augusta, Georgia, in St. John's M. E. Church, Dr. Irvine read a request from a widowed mother. Her daughter was at a boarding school in New York. She asked prayer that the daughter would be converted.
@@ -382,10 +394,11 @@ The barroom where he had served drink became the place of the prayer meeting.
 R: W | The Tavern Keeper Overcome. 
 
 @@ T049 | question | parchment | church | A question from the old guides
-H: DO WE WANT|THE BREAD OF|THAT KINGDOM, OR ONLY|*THE BREAD OF THIS ONE?*
-C: Matthew Henry writes of eating bread in the kingdom, and of hidden manna. A Method for Prayer, page 180.
-R: MH | A Method for Prayer, page 180. 
+H: ALL THINGS ARE NOW READY; *BUT WHERE IS THE LAMB* FOR THE BURNT-OFFERING?
+C: Matthew Henry, A Method for Prayer (1710), page 268:
 
+"Behold the fire and the wood, all things are now ready; but where is the lamb for the burnt-offering?"
+R: MH | A Method for Prayer (1710), page 268
 @@ S113 | story | dusk | city | True story · A city missionary
 H: THE LARDER WAS EMPTY.|CHARLES WOULD BE HOME|AT SIX. AT THE DOOR,|A MAN WITH A VALISE *REPAID FIVE DOLLARS.*
 C: Mrs. X told the city missionary the larder was empty and Charles would be home at six, hungry. She said the Lord would send something. The doorbell rang. A gentleman with a valise repaid five dollars of rent from a year before.
@@ -414,10 +427,11 @@ The fee, with what had already been set aside, was exactly eighty dollars. A fif
 R: W | Exactly Eighty Dollars. 
 
 @@ T050 | question | parchment | church | A question from the old guides
-H: HAVE WE TURNED|OUR EAR AWAY|*FROM HEARING THE LAW?*
-C: Matthew Henry prays, Grant that we may not turn away our ear from hearing the law. A Method for Prayer, page 212.
-R: MH | A Method for Prayer, page 212. 
+H: *WHAT SAITH OUR LORD* UNTO HIS SERVANTS?
+C: Matthew Henry, A Method for Prayer (1710), page 212:
 
+"Now, speak, Lord, for thy servants hear. What saith our Lord unto his servants? Grant that we may not turn away our ear from hearing the law; for then our prayers will be an abomination; but may hearken unto God, that he may hearken unto us." 1 Samuel 3:9. Joshua 5:14. Proverbs 28:9. Judges 9:7.
+R: MH | A Method for Prayer (1710), page 212
 @@ VW15 | verse | storm | road | True story · Boulder Pass, 1876
 H: NO EVIL SHALL|BEFALL THEE.
 B: Psalm 91:10
@@ -440,10 +454,11 @@ C: This is Matthew Henry's sentence, from A Method for Prayer, page 150.
 R: MH | A Method for Prayer, page 150. 
 
 @@ T051 | question | parchment | church | A question from the old guides
-H: GOD IS IN HEAVEN|AND WE UPON EARTH.|ARE OUR WORDS *FEW?*
-C: Matthew Henry writes, God is in heaven and we upon earth, therefore let our words be few. A Method for Prayer, page 221.
-R: MH | A Method for Prayer, page 221. 
+H: THOU ART A FATHER, *BUT WHERE IS THINE HONOUR?*
+C: Matthew Henry, A Method for Prayer (1710), page 221:
 
+"Thou art a Father, but where is thine honour? Lord, give us grace to serve thee as becomes children, with reverence and godly fear." Malachi 1:6. Hebrews 12:28.
+R: MH | A Method for Prayer (1710), page 221
 @@ S117 | story | dawn | city | True story · As told of D. L. Moody
 H: HE SENT MONEY TO MOODY|TO TEST WHETHER THE|SPIRIT IS REAL. IT ARRIVED|IN THE SAME MAIL *AS THE ASK.*
 C: A man wished to be convinced that the Holy Spirit is real. He sent money to D. L. Moody. Moody wrote that it arrived in the same mail, at the same moment, as a letter from a brother who needed that same amount.
@@ -472,10 +487,11 @@ A few weeks before, the young man said, he had been on the high road to destruct
 R: W | A Discouraged One Revived. 
 
 @@ T052 | question | parchment | church | A question from the old guides
-H: THE SCRIPTURE HAS|CONCLUDED US ALL|UNDER SIN. DO WE|STILL PLEAD *OUR OWN CASE?*
-C: Matthew Henry writes, The scripture has concluded us all under sin. A Method for Prayer, page 232. This is a different sentence from the prayer on the same page.
-R: MH | A Method for Prayer, page 232. 
+H: IN MANY THINGS WE ALL OFFEND EVERY DAY; *WHO CAN TELL HOW OFT HE OFFENDS?*
+C: Matthew Henry, A Method for Prayer (1710), page 232:
 
+"For we are all guilty before God, have all sinned, and have come short of the glory of God: In many things we all offend every day; who can tell how oft he offends?"
+R: MH | A Method for Prayer (1710), page 232
 @@ S120 | story | dawn | cabin | True story · Massachusetts, from 1818
 H: HE BEGAN IN 1818|SIX HUNDRED DOLLARS|IN DEBT, AND MEANT|TO CLEAR IT IN *SIX YEARS.*
 C: A farmer in a retired mountain town of Massachusetts began in 1818 six hundred dollars in debt. He meant to pay it in six years, in equal parts, and to give whatever net income remained. The first year's income went to stock and what the farm needed.
@@ -504,10 +520,11 @@ The lady did not answer. The child asked again. The reply came with deep emotion
 R: W | A Little Girl's Question. 
 
 @@ T053 | question | parchment | church | A question from the old guides
-H: WE HAVE WASTED|OUR LORD'S GOODS|AND BURIED THE TALENTS.|HOW DO WE COME,|*EXCEPT IN DEBT?*
-C: Matthew Henry writes, We have wasted our Lord's goods, we have buried the talents we were entrusted with, and thus we come to be in debt. A Method for Prayer, page 232.
-R: MH | A Method for Prayer, page 232. 
+H: ARE WE NOT CARNAL AND WALK AS MEN, *BELOW CHRISTIANS?*
+C: Matthew Henry, A Method for Prayer (1710), page 251:
 
+"We offend with our tongues: Are we not carnal and walk as men, below Christians?"
+R: MH | A Method for Prayer (1710), page 251
 @@ VW16 | verse | dusk | city | True story · Luther
 H: THE KING'S HEART|IS IN THE HAND|OF THE LORD.
 B: Proverbs 21:1
@@ -530,10 +547,11 @@ C: This is Matthew Henry's sentence, from A Method for Prayer, page 176.
 R: MH | A Method for Prayer, page 176. 
 
 @@ T054 | question | parchment | church | A question from the old guides
-H: MIGHT THE JUDGE|DELIVER US TO|THE OFFICER, UNTIL|WE PAID *THE LAST FARTHING?*
-C: Matthew Henry writes that the adversary might justly deliver us to the judge, and the judge to the officer, until we should pay the last farthing. A Method for Prayer, page 232.
-R: MH | A Method for Prayer, page 232. 
+H: WHO MAY STAND IN THY SIGHT, *WHEN ONCE THOU ART ANGRY?*
+C: Matthew Henry, A Method for Prayer (1710), page 59:
 
+"Thou, even thou art to be feared, and who may stand in thy sight, when once thou art angry?"
+R: MH | A Method for Prayer (1710), page 59
 @@ S124 | story | gold | city | True story · Hartford
 H: NORMAND SMITH,|A SADDLER OF HARTFORD,|LEFT THIRTY THOUSAND|*IN CHARITY.*
 C: Normand Smith, a saddler of Hartford, Connecticut, after years of an elevated system of benevolence, bequeathed thirty thousand dollars in charity.
@@ -562,10 +580,11 @@ A man who saw it said he would gladly give ten dollars for it. That was half the
 R: W | Relief From A Creditor's Demands. 
 
 @@ T055 | question | parchment | church | A question from the old guides
-H: WILL WE RECEIVE|THE ATONEMENT,|AND HEAR *JOY AND GLADNESS?*
-C: Matthew Henry prays that we receive the atonement, know that our sins are forgiven, and hear joy and gladness. A Method for Prayer, page 233.
-R: MH | A Method for Prayer, page 233. 
+H: WHAT HAVE WE TO DO *ANY MORE WITH IDOLS?*
+C: Matthew Henry, A Method for Prayer (1710), page 81:
 
+"And, O that we may bring forth fruits meet for repentance! and may never return again to folly! for what have we to do any more with idols?"
+R: MH | A Method for Prayer (1710), page 81
 @@ S127 | story | night | city | From The New Cyclopaedia of Prose Illustrations
 H: HE WORE GREEN SPECTACLES|AND CALLED FOR HOT BRANDY.|THE QUAKER BY THE FIRE|*SAID WHAT HE SAW.*
 C: The Cyclopaedia, under Abstinence, tells of an elderly man in green spectacles who called for hot brandy at an inn. A Quaker sat by the fire. The point of the illustration, as the book gives it, is the Quaker's plain reply to a man who could not see what was in front of him.
@@ -590,10 +609,11 @@ C: Spurgeon's illustration, as the Cyclopaedia records it, is that tiny shells m
 R: CY | Spurgeon on small shells 
 
 @@ T056 | question | parchment | church | A question from the old guides
-H: IF THE STALL|WERE EMPTY,|WOULD WE STILL|*REJOICE IN THE LORD?*
-C: Matthew Henry writes that though there should be no herd in the stall, yet we may rejoice in the Lord. A Method for Prayer, page 231.
-R: MH | A Method for Prayer, page 231. 
+H: WHAT IS OUR PETITION, *AND WHAT IS OUR REQUEST?*
+C: Matthew Henry, A Method for Prayer (1710), page 222:
 
+"And now what is our petition, and what is our request?"
+R: MH | A Method for Prayer (1710), page 222
 @@ S130 | story | gold | road | From The New Cyclopaedia of Prose Illustrations
 H: THEY RAN FOR A WREATH|THAT WITHERED. THE BOOK|SETS BESIDE IT *A PRIZE THAT DOES NOT.*
 C: The Cyclopaedia, citing Parker, pictures the Olympic runners and the wreath they ran for, a prize that withered. The illustration is set beside a prize that does not.
@@ -606,10 +626,11 @@ C: This is Matthew Henry's sentence, from A Method for Prayer, page 232.
 R: MH | A Method for Prayer, page 232. 
 
 @@ T057 | question | parchment | church | A question from the old guides
-H: IS THE BEAUTY|OF THE LORD|UPON THE WORK|*OF OUR HANDS?*
-C: Matthew Henry prays, Let the beauty of the Lord our God be upon us, and establish the work of our hands. A Method for Prayer, page 230.
-R: MH | A Method for Prayer, page 230. 
+H: HOW SHALL THEY HEAR *WITHOUT PREACHERS?*
+C: Matthew Henry, A Method for Prayer (1710), page 150:
 
+"and how shall they hear without preachers?"
+R: MH | A Method for Prayer (1710), page 150
 @@ S131 | story | dawn | cabin | From The New Cyclopaedia of Prose Illustrations
 H: THE RICHEST SOIL,|LEFT ALONE, RUNS|TO WEEDS. THE FIGURE|*IS THE UNTENDED HEART.*
 C: The Cyclopaedia uses a garden fact: rich soil, left alone, runs to weeds. The application is the heart left untended.

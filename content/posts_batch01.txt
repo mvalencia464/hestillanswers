@@ -937,7 +937,7 @@ Hush the wind and the waves inside me the way You hushed them on the lake.
 And when I reach to take the burden back, as I will, gently take it from my hands again.
 In Jesus' name, amen.
 
-If you are praying this for something specific tonight, you do not have to say what. Just say "me too," and we will pray with you.
+If you are praying this for something specific tonight, you do not have to say what. He already knows.
 R: OR | Draws on phrases from Spurgeon's prayers and Melanchthon
 
 @@ P002 | prayer | night | | A prayer for
@@ -1001,7 +1001,7 @@ And while we wait, be in that room. The sick bed is soft when You are there.
 Hold the one who is suffering. Hold the ones who are watching.
 In Jesus' name, amen.
 
-Leave a first name below and those who read this will pray for them.
+If someone you love is sick tonight, pray it with their name in it.
 R: OR | Draws on phrases from Spurgeon's prayers
 
 @@ P006 | prayer | dusk | | A prayer for
@@ -1111,7 +1111,7 @@ Is God dead? No. Then I am not without hope, even here.
 Hold the one I miss until I see them again.
 In Jesus' name, amen.
 
-If you are missing someone today, you can say their name here. It is good to say their name.
+If you are missing someone today, say their name to Him. It is good to say their name.
 R: OR | Draws on an account in the New Cyclopaedia of Prose Illustrations (1875)
 
 @@ P013 | prayer | night | | A prayer for
@@ -1163,7 +1163,7 @@ R: OR
 H: What is the *oldest prayer* you are still waiting on?
 C: Some of you have been praying the same prayer for twenty years.
 
-You do not have to give details. But tell us how long, and we will stand with you.
+You are not the only one still waiting.
 R: OR
 
 @@ T002 | question | | | Looking back
@@ -1177,7 +1177,7 @@ R: OR
 H: Who *prayed for you* before you ever prayed for yourself?
 C: A grandmother. A Sunday school teacher. A neighbor you did not appreciate at the time.
 
-Say their name here.
+Someone was praying for you long before you knew it.
 R: OR
 
 @@ T004 | question | | | Tell the story
@@ -1196,7 +1196,7 @@ R: OR
 
 @@ T006 | question | | | One word
 H: Which *hymn* can you not sing without tears?
-C: Just the title. We will know why.
+C: Some of them we still cannot get through.
 R: OR
 
 @@ T007 | question | | | Chapter and verse
@@ -1206,7 +1206,7 @@ R: OR
 
 @@ T008 | question | | | Finish the sentence
 H: I knew God heard me *when...*
-C: Finish it in your own words.
+C: Most of us can name the moment.
 R: OR
 
 @@ T009 | question | | | Give them credit
@@ -1227,7 +1227,7 @@ R: OR
 H: Morning or night: *when do you pray best?*
 C: "The first hour of the morning is the rudder of the day," said Beecher. Some of us do better at midnight.
 
-Which are you?
+He hears both.
 R: OR
 
 @@ T012 | question | | | Passed down
@@ -1253,7 +1253,5 @@ R: OR
 
 @@ T015 | question | | | One name
 H: *One name.* Who should we pray for tonight?
-C: First name only. No explanation needed.
-
-If you read a name here, stop and pray for it before you scroll on.
+C: Bring that one name to Him tonight. No explanation needed.
 R: OR

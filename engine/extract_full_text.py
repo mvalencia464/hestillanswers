@@ -13,7 +13,7 @@ import argparse, csv, json, os, re, unicodedata
 from collections import Counter, defaultdict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SRC = os.path.join(ROOT, 'wonders of prayer.txt')
+SRC = os.path.join(ROOT, 'sources', 'wonders of prayer.txt')
 BATCHES = [os.path.join(ROOT, 'content', f'posts_batch{n:02d}.txt') for n in (1, 2, 3, 4, 5)]
 
 OCR_RE = re.compile(

@@ -1,7 +1,7 @@
 #!/bin/bash
 # Downloads the public-domain artwork listed in backgrounds/credits.csv (The Met, Open Access)
 # into backgrounds/, named by post id, so the image engine can use it. Double-click to run.
-cd "$(dirname "$0")" || exit 1
+cd "$(dirname "$0")/.." || exit 1
 mkdir -p backgrounds
 ok=0; bad=0
 while IFS= read -r line; do

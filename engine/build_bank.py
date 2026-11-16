@@ -5,7 +5,7 @@ Run from the project folder:  python3 engine/build_bank.py
 import re, csv, os, subprocess, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BANK = os.path.join(ROOT, 'bank'); os.makedirs(BANK, exist_ok=True)
-def rd(name): return open(os.path.join(ROOT, name), encoding='utf-8', errors='ignore').read().replace('﻿','')
+def rd(name): return open(os.path.join(ROOT, 'sources', name), encoding='utf-8', errors='ignore').read().replace('﻿','')
 def wc(s): return len(s.split())
 def sentences(text):
     text = re.sub(r'\s+', ' ', text)
@@ -63,7 +63,7 @@ def spurgeon():
 
 # ---------- 4. Matthew Henry: one row per sentence of Henry's own 1710 text ----------
 def henry():
-    pdf = os.path.join(ROOT, 'a-method-for-prayer-1710-edition.pdf')
+    pdf = os.path.join(ROOT, 'sources', 'a-method-for-prayer-1710-edition.pdf')
     try: txt = subprocess.run(['pdftotext', '-layout', pdf, '-'], capture_output=True, text=True).stdout
     except FileNotFoundError: print('pdftotext not installed; skipping Henry'); return []
     pages = txt.split('\f'); rows = []; n = 0

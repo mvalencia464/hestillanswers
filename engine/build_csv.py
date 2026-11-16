@@ -65,7 +65,7 @@ def parse(path):
             p['image_file'] = p['id'] + '.jpg'
         m = re.search(r'<<SPURGEON: (.+?)>>', p['caption'])
         if m:   # pull a paragraph word for word from the source file
-            para = next((l.strip() for l in open(os.path.join(ROOT, 'Prayers of C.H. Spurgeon.txt'), encoding='utf-8-sig') if l.strip().startswith(m.group(1))), None)
+            para = next((l.strip() for l in open(os.path.join(ROOT, 'sources', 'Prayers of C.H. Spurgeon.txt'), encoding='utf-8-sig') if l.strip().startswith(m.group(1))), None)
             assert para, f'{p["id"]}: Spurgeon paragraph not found: {m.group(1)}'
             p['caption'] = p['caption'].replace(m.group(0), para)
         p['source'] = p.pop('src')
